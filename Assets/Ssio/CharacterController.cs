@@ -29,6 +29,7 @@ public class CharacterController : MonoBehaviour
         if(Timer >= ChangeTimer)
         {
             renderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            transform.localScale.x = Random.Range(0.5, 1.5);
             Timer = 0;
         }
         else        
