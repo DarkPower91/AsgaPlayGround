@@ -21,11 +21,6 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
-        float translation = Input.GetAxis("Horizontal") * Speed;
-        translation *= Time.deltaTime;
-        transform.position += Vector3.right * translation;
-        //transform.Translate(Vector3.right * translation);
-
         if(Timer >= ChangeTimer)
         {
             renderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
@@ -39,9 +34,24 @@ public class CharacterController : MonoBehaviour
 
     void FixedUpdate() 
     {
+        float translation = Input.GetAxis("Horizontal") * Speed;
+        translation *= Time.deltaTime;
+        transform.position += Vector3.right * translation;
+
         if(Input.GetButtonDown("Jump"))
         {
-            GetComponent<Rigidbody2D>().AddForce(Vector3.up * JumpSpeed, ForceMode2D.Impulse);
+            RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position , Vector2.down, 1.1f);
+            Debug.DrawLine(transform.position, transform.position + (Vector3.down * 2f));
+            foreach(RaycastHit2D hit in hits)
+            {
+                if (hit.collider != null)
+                {
+                    if(hit.collider.gameObject != gameObject)
+                    {
+                        GetComponent<Rigidbody2D>().AddForce(Vector3.up * JumpSpeed, ForceMode2D.Impulse);
+                    }
+                }   
+            }
         }
     }
 
