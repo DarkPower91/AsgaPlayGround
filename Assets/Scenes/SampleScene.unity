@@ -561,13 +561,13 @@ FixedJoint2D:
   serializedVersion: 4
   m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: 20
+  m_BreakForce: 70
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 0, y: -4.41}
   m_DampingRatio: 0
-  m_Frequency: 3
+  m_Frequency: 1
 --- !u!114 &1164204330
 MonoBehaviour:
   m_ObjectHideFlags: 0

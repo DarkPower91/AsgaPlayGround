@@ -10,26 +10,30 @@ public class CharacterController : MonoBehaviour
     public float JumpSpeed = 1.0f;
 
     private float Timer = 0.0f;
-    private SpriteRenderer renderer;
+    private SpriteRenderer spriteRenderer;
+    private Vector3 startScale;
 
     void Start()
     {
-        renderer = GetComponent<SpriteRenderer>();
-        renderer.color = Diocane;
-//        StartCoroutine(ChangeColor());
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = Diocane;
+        startScale = transform.localScale;
+        StartCoroutine(ChangeColor());
     }
 
     void Update()
     {
-        if(Timer >= ChangeTimer)
-        {
-            renderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
-            Timer = 0;
-        }
-        else        
-        {
-            Timer = Timer + Time.deltaTime;
-        }
+//        if (Timer < ChangeTimer)
+//        {
+//            Timer = Timer + Time.deltaTime;
+//        }
+//        else
+//        {
+//            spriteRenderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+//            float scaleFactor = Random.Range(0.5f, 1.5f);
+//            transform.localScale = startScale * scaleFactor;
+//            Timer = 0;
+//        }
     }
 
     void FixedUpdate() 
@@ -55,12 +59,14 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-//    IEnumerator ChangeColor()
-//    {
-//        while(true)
-//        {
-//            yield return new WaitForSeconds(ChangeTimer);
-//            renderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
-//        }
-//    }
+    IEnumerator ChangeColor()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(ChangeTimer);
+            spriteRenderer.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            float scaleFactor = Random.Range(0.5f, 1.5f);
+            transform.localScale = startScale * scaleFactor;
+        }
+    }
 }
