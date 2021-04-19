@@ -1,0 +1,42 @@
+[
+    {
+        "key": "!Sailor_Mercury",
+        "distance": 0.3871
+    }, 
+    {
+        "key": "!Sailor_Venus",
+        "distance": 0.723
+    }, 
+    {
+        "key": "!Sailor_Earth",
+        "distance": 1
+    }, 
+    {
+        "key": "!Sailor_Mars",
+        "distance": 1.52
+    }, 
+    {
+        "key": "!Sailor_Jupiter",
+        "distance": 5.2
+    }, 
+    {
+        "key": "!Sailor_Saturn",
+        "distance": 9.6
+    }, 
+    {
+        "key": "!Sailor_Uranus",
+        "distance": 19.2
+    },
+    {
+        "key": "!Sailor_Neptune",
+        "distance": 30.06
+    }, 
+    {
+        "key": "!Sailor_Pluto",
+        "distance": 39.44
+    }, 
+    {
+        "key": "!Sailor_Outside",
+        "distance": 39.45
+    }
+]
