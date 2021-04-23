@@ -36,7 +36,7 @@ public class OtherThingSpawnerManager : MonoBehaviour
         GameObject other = Instantiate(m_OtherDB[otherIndex]) as GameObject;
 
         float otherBBy = other.GetComponent<SpriteRenderer>().bounds.size.y;
-        Vector2 screenBounds = ScreenBounds.GetScreenBounds();
+        Vector2 screenBounds = ScreenBounds.Bounds;
         float yPosition = Random.Range(-3 * screenBounds.y + otherBBy / 2, 3 * screenBounds.y - otherBBy / 2);
 
         float speed = -Random.Range(minSpeed, maxSpeed);

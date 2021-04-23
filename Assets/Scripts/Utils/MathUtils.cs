@@ -4,14 +4,7 @@ public static class MathUtils
 {
     public static float GetClampedPercentage(float value, float min, float max)
     {
-        if (Mathf.Abs(max - min) < 0.00001f)
-        {
-            return 0f;
-        }
-        else
-        {
-            return Mathf.Clamp01((value - min) / (max - min));
-        }
+        return Mathf.Abs(max - min) < 0.00001f ? 0f : Mathf.Clamp01((value - min) / (max - min));
     }
 
     public static bool ApproximatelyEqual(float i_A, float i_B, float i_Tolerance)
@@ -24,7 +17,7 @@ public static class MathUtils
 
     public static float Square(float i_Value)
 	{
-		return (i_Value * i_Value);
+		return i_Value * i_Value;
     }
 
     public static float GetBellInterpolation2(float i_Value, float i_T0, float i_T1)

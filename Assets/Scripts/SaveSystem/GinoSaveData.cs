@@ -2,31 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveData : Savable
+public class GinoSaveData : Savable
 {
     private static List<Unlockable> _DexUnlockStatus = new List<Unlockable>();
     private static List<float> _HighestScores = new List<float>();
-    
-    public static bool ftue {get;set;} = true;
 
-    public static List<Unlockable> DexUnlockStatus
-    {
-        get
-        {
-            return _DexUnlockStatus;
-        }
-    }
-    public static List<float> HighestScores
-    {
-        get
-        {
-            return _HighestScores;
-        }
-    }
+    public static bool ftue { get; set; } = true;
 
-    private string dexKey = "Dex";
-    private string scoreKey = "Scores";
-    private string ftueKey = "PlayerProfile";
+    public static List<Unlockable> DexUnlockStatus => _DexUnlockStatus;
+    public static List<float> HighestScores => _HighestScores;
+
+    private readonly string dexKey = "Dex";
+    private readonly string scoreKey = "Scores";
+    private readonly string ftueKey = "PlayerProfile";
 
     protected override void OnSave()
     {

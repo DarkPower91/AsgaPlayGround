@@ -7,12 +7,10 @@ public class AudioButton : MonoBehaviour
 {
     public bool m_WantToMute = false;
     public GameObject m_OppositeButton;
-
     private AudioManager m_AudioManager = null;
-
     private bool isInit = false;
 
-    void Init()
+    private void Init()
     {
         m_AudioManager = GameObject.FindGameObjectWithTag("MusicManager").GetComponent<AudioManager>();
         if(m_AudioManager !=null)
@@ -34,7 +32,7 @@ public class AudioButton : MonoBehaviour
             isInit = true;
         }
     }
-    void Update()
+    private void Update()
     {
         if(!isInit)
         {

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameplayUIManager : MonoBehaviour
 {
@@ -23,7 +21,7 @@ public class GameplayUIManager : MonoBehaviour
         m_ActiveCanvas = m_GameOverCanvas;
     }
 
-    void Start()
+    private void Start()
     {
         m_ActiveCanvas = m_GameOverCanvas;
     }

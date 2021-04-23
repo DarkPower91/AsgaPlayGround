@@ -78,7 +78,7 @@ public class EnemySpawnerManager : MonoBehaviour
         GameObject enemy = Instantiate(m_EnemyDB[EnemyIndex]) as GameObject;
 
         float enemyBBy = enemy.GetComponent<SpriteRenderer>().bounds.size.y;
-        Vector2 screenBounds = ScreenBounds.GetScreenBounds();
+        Vector2 screenBounds = ScreenBounds.Bounds;
         float yPosition = Random.Range(-screenBounds.y + enemyBBy/2, screenBounds.y - enemyBBy/2);
 
         float speed = Random.Range(minSpeed, maxSpeed);

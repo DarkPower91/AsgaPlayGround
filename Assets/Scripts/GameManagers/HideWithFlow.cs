@@ -1,30 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HideWithFlow : MonoBehaviour
 {
     public GameState[] HiddenInFlowStates;
 
-    void Start()
+    private void Start()
     {
         FlowManager.OnGameStateChanged += OnFlowStateChanged;
     }
 
-    void OnDestroy()
+    private void OnDestroy()
     {
         FlowManager.OnGameStateChanged -= OnFlowStateChanged;
     }
 
     private void OnFlowStateChanged(GameState newState)
     {
-        bool needToHide = false; 
-        
-        foreach(var state in HiddenInFlowStates)
+        bool needToHide = false;
+
+        foreach (GameState state in HiddenInFlowStates)
         {
             needToHide |= newState == state;
         }
 
-        this.gameObject.SetActive(!needToHide);
+        gameObject.SetActive(!needToHide);
     }
 }

@@ -11,14 +11,14 @@ public class BasicEnemy : MonoBehaviour
     private Vector2 m_ScreenBounds;
     #endregion
 
-    void Start()
+    private void Start()
     {
         m_Rigidbody = this.GetComponent<Rigidbody2D>();
         m_Rigidbody.velocity = new Vector2(-m_Speed, m_Rigidbody.velocity.y);
-        m_ScreenBounds = ScreenBounds.GetScreenBounds();
+        m_ScreenBounds = ScreenBounds.Bounds;
     }
 
-    void Update()
+    private void Update()
     {
         if(transform.position.x < -m_ScreenBounds.x * 1.5f)
         {
@@ -30,5 +30,4 @@ public class BasicEnemy : MonoBehaviour
     {
         m_Speed = speed;
     }
-
 }

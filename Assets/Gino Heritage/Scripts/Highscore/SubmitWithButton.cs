@@ -15,24 +15,37 @@ public class SubmitWithButton : MonoBehaviour
     public bool trimWhitespace = true;
     //Start is called on the frame when a script is enabled just before any of the Update methods is called the first time.
     //Apropriate when initializing fields.
-    void Start() {
+    void Start()
+    {
         _inputField = GetComponent<TMP_InputField>();
-        _inputField.onEndEdit.AddListener(fieldValue => {
+        _inputField.onEndEdit.AddListener(fieldValue =>
+        {
             if (trimWhitespace)
+            {
                 _inputField.text = fieldValue = fieldValue.Trim();
+            }
+
             if (Input.GetButton(submitKey))
-                validateAndSubmit(fieldValue);
+            {
+                ValidateAndSubmit(fieldValue);
+            }
         });
     }
-    TMP_InputField _inputField;
 
-    bool isInvalid(string fieldValue) {
+    private TMP_InputField _inputField;
+
+    bool IsInvalid(string fieldValue)
+    {
         // change to the validation you want
         return string.IsNullOrEmpty(fieldValue);
     }
-    void validateAndSubmit(string fieldValue) {
-        if (isInvalid(fieldValue))
+    void ValidateAndSubmit(string fieldValue)
+    {
+        if (IsInvalid(fieldValue))
+        {
             return;
+        }
+
         Highscores.AddNewHighscore(fieldValue, playerDistanceComponent.neutrinoPercurredDistance);
         SubmitPanel?.SetActive(false);
 
@@ -40,7 +53,8 @@ public class SubmitWithButton : MonoBehaviour
        // doSomething(_inputField); // or doSomething(fieldValue);
     }
     // to be called from a submit button onClick event
-    public void validateAndSubmit() {
-        validateAndSubmit(_inputField.text);
+    public void ValidateAndSubmit()
+    {
+        ValidateAndSubmit(_inputField.text);
     }
 }

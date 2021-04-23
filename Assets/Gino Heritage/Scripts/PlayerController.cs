@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.position = startingPosition;
 
-        screenBounds = ScreenBounds.GetScreenBounds();
+        screenBounds = ScreenBounds.Bounds;
 
         sprite = GetComponent<SpriteRenderer>();
 

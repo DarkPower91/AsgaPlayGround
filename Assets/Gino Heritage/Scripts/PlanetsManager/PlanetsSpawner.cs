@@ -48,7 +48,7 @@ public class PlanetsSpawner : MonoBehaviour
         {
             GameObject planet = Instantiate(planets.planets[idx].planetGameObject) as GameObject;
 
-            Vector2 screenBounds = ScreenBounds.GetScreenBounds();
+            Vector2 screenBounds = ScreenBounds.Bounds;
             float xPosition = screenBounds.x * 1.2f;
             float yPosition = 0;
             float zPosition = 9;

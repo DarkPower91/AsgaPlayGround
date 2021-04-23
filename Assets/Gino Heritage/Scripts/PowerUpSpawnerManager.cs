@@ -45,7 +45,7 @@ public class PowerUpSpawnerManager : MonoBehaviour
         GameObject powerUp = Instantiate(m_OtherDB[powerUpIndex]) as GameObject;
 
         float otherBBy = powerUp.GetComponent<SpriteRenderer>().bounds.size.y;
-        Vector2 screenBounds = ScreenBounds.GetScreenBounds();
+        Vector2 screenBounds = ScreenBounds.Bounds;
         float yPosition = Random.Range(-screenBounds.y + otherBBy/2, screenBounds.y - otherBBy/2);
 
         float speed = - Random.Range(minSpeed, maxSpeed);

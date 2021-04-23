@@ -6,6 +6,6 @@ public class FTUEElement : MonoBehaviour
 {
     void Update()
     {
-        gameObject.SetActive(SaveData.ftue);
+        gameObject.SetActive(GinoSaveData.ftue);
     }
 }

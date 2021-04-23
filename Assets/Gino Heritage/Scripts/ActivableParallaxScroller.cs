@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Renderer))]
-public class ActivableParallaxScroller : MonoBehaviour 
+public class ActivableParallaxScroller : MonoBehaviour
 {
-
     #region Serialzed fields
     [Readonly]
     [SerializeField]
@@ -26,20 +25,15 @@ public class ActivableParallaxScroller : MonoBehaviour
     private Renderer m_renderer;
     #endregion
 
-    void Awake()
+    private void Awake()
     {
         m_renderer = GetComponent<Renderer>();
         m_startOffset = m_renderer.sharedMaterial.GetTextureOffset("_MainTex");
         m_scrollSpeed = 1 -  MathUtils.GetClampedPercentage(transform.position.z, m_minDistance, m_maxDistance);
         m_lastOffset = 0.0f;
-
     }
 
-    void Start()
-    {
-    }
-
-    void Update()
+    private void Update()
     {
         if (m_scroll || m_contiuosMovement)
         {
@@ -60,9 +54,8 @@ public class ActivableParallaxScroller : MonoBehaviour
         m_scroll = false;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         m_renderer.sharedMaterial.SetTextureOffset("_MainTex", m_startOffset);
     }
-
 }

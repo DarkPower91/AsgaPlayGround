@@ -17,7 +17,7 @@ public class UnlockablePageText : MonoBehaviour
         bool unlocked = false;
         foreach(Unlockable Lock in m_Lock)
         {
-            unlocked |= SaveData.DexUnlockStatus.Contains(Lock);
+            unlocked |= GinoSaveData.DexUnlockStatus.Contains(Lock);
         }
 
         m_Unlocked.SetActive(unlocked);

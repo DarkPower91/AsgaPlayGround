@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MainMenuUIManager : MonoBehaviour
 {
@@ -39,7 +37,7 @@ public class MainMenuUIManager : MonoBehaviour
         Application.Quit();
     }
 
-    void Start()
+    private void Start()
     {
         ActiveCanvas = MainCanvas;
     }

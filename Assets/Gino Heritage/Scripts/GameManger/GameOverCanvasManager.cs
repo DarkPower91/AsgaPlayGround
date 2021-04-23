@@ -1,32 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class GameOverCanvasManager : MonoBehaviour
 {
     public List<GameObject> m_GameOverCanvas = null;
-    void Start()
+
+    private void Start()
     {
-        foreach(var go in m_GameOverCanvas)
+        foreach (GameObject go in m_GameOverCanvas)
         {
             go.SetActive(false);
         }
         FlowManager.OnGameStateChanged += OnGameStateChanged;
         SaveEvents.DataUpdateNeeded += UpdateFtue;
-
     }
 
-    private void OnDestroy() 
+    private void OnDestroy()
     {
-        FlowManager.OnGameStateChanged -= OnGameStateChanged;   
+        FlowManager.OnGameStateChanged -= OnGameStateChanged;
         SaveEvents.DataUpdateNeeded -= UpdateFtue;
     }
 
     private void OnGameStateChanged(GameState newState)
     {
-        if(newState == GameState.GameOver)
+        if (newState == GameState.GameOver)
         {
-            foreach(var go in m_GameOverCanvas)
+            foreach (GameObject go in m_GameOverCanvas)
             {
                 go.SetActive(true);
             }
@@ -35,6 +34,6 @@ public class GameOverCanvasManager : MonoBehaviour
 
     void UpdateFtue()
     {
-        SaveData.ftue = false; 
+        GinoSaveData.ftue = false;
     }
 }

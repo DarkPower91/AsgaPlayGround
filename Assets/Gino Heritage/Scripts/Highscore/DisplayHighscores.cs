@@ -4,39 +4,38 @@ using UnityEngine.UI;
 
 public class DisplayHighscores : MonoBehaviour
 {
+    public Text[] highscoreFields;
+    private Highscores highscoresManager;
 
-	public Text[] highscoreFields;
-	Highscores highscoresManager;
-
-	void Start()
+    private void Start()
 	{
-		for (int i = 0; i < highscoreFields.Length; i ++)
+        for (int i = 0; i < highscoreFields.Length; i++)
 		{
-			highscoreFields[i].text = ". Fetching...";
-		}
+            highscoreFields[i].text = ". Fetching...";
+        }
 
-		highscoresManager = GetComponent<Highscores>();
-		StartCoroutine("RefreshHighscores");
+        highscoresManager = GetComponent<Highscores>();
+        StartCoroutine("RefreshHighscores");
 	}
-	
-	public void OnHighscoresDownloaded(Highscore[] highscoreList)
+
+    public void OnHighscoresDownloaded(Highscore[] highscoreList)
 	{
-		for (int i =0; i < highscoreFields.Length; i ++)
+        for (int i = 0; i < highscoreFields.Length; i++)
 		{
-			highscoreFields[i].text = "";
-			if (i < highscoreList.Length)
-			{
-				highscoreFields[i].text += highscoreList[i].username + " - " + highscoreList[i].score;
-			}
+            highscoreFields[i].text = "";
+            if (i < highscoreList.Length)
+            {
+                highscoreFields[i].text += highscoreList[i].username + " - " + highscoreList[i].score;
+            }
 		}
 	}
-	
-	IEnumerator RefreshHighscores()
+
+    IEnumerator RefreshHighscores()
 	{
-		while (true)
+        while (true)
 		{
-			highscoresManager.DownloadHighscores();
-			yield return new WaitForSeconds(30);
+            highscoresManager.DownloadHighscores();
+            yield return new WaitForSeconds(30);
 		}
 	}
 }

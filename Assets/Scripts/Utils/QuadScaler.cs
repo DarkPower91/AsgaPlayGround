@@ -9,7 +9,7 @@ public class QuadScaler : MonoBehaviour
     public bool scaleWidth = false;
     public bool scaleHeight = false;
 
-    void Start()
+    private void Start()
     {
         double height = Camera.main.orthographicSize * 2.0;
         double width = height * Screen.width / Screen.height;

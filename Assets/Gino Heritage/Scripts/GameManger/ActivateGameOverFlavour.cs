@@ -5,23 +5,22 @@ using UnityEngine;
 [RequireComponent(typeof(FlavourDefinition))]
 public class ActivateGameOverFlavour : MonoBehaviour
 {
-
     public GameObject m_MuonicCanvas = null;
     public GameObject m_ElectronicCanvas = null;
     public GameObject m_TauonicCanvas = null;
 
-
     private FlavourDefinition m_FlavourDefinition = null;
-    void Start()
+
+    private void Start()
     {
         m_FlavourDefinition = GetComponent<FlavourDefinition>();
     }
 
-    void Update()
+    private void Update()
     {
-        if(m_FlavourDefinition != null)
+        if (m_FlavourDefinition != null)
         {
-            switch(m_FlavourDefinition.flavour)
+            switch (m_FlavourDefinition.flavour)
             {
                 case Flavours.muonic:
                 {
