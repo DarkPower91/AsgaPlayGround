@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {   
+    {
         if(FlowManager.GetGameState() == GameState.InGame)
         {
             axis_position = transform.position; 
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
             transform.position = axis_position;
         }
     }
-    
+
     void LateUpdate()
     {
         Vector3 objectPosition = transform.position;
