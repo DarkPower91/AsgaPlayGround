@@ -14,6 +14,8 @@ public class CharacterMovements : MonoBehaviour
     public float strenght_break = 0.8f;
     public Joystick joystick = null;
     public bool isForceMode = true;
+    public float duration_break = 5f;
+    public float duration_jump = 5f;
     #endregion
 
     #region Private objects
@@ -22,12 +24,25 @@ public class CharacterMovements : MonoBehaviour
     private Vector2 axis_position;
     private bool isUsingTouch = false;
     private Rigidbody2D bolla_component;
+    private float now = 0.0f;
+    private float lastTime = 0.0f;
+    private Timer _Timer_jump = new Timer();
+    private Timer _Timer_break = new Timer();
     #endregion
     
+    private void Awake() {
+
+    }
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize component
         bolla_component = GetComponent<Rigidbody2D>();
+
+        // Initialize timers
+        _Timer_break.Start();
+        _Timer_jump.Start();
+        
     }
 
     // Update is called once per frame
@@ -60,29 +75,50 @@ public class CharacterMovements : MonoBehaviour
                 bolla_component.velocity = applied_integrated_force;
             }
             
-        } else
+        } else // We mainly use this
         {
             // Here instead players applies force
             if (direction_versor.magnitude > 0) 
             {
                 bolla_component?.AddForce(standard_thrust*direction_versor);
             }
-            
+            // Other version - commented out
             //bolla_component?.AddForce(standard_thrust*direction_versor, ForceMode2D.Impulse);
         }
         
  
         // ///////////////////////
         // Boost
-        if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1")) 
+        // it is triggere every tot seconds
+        // Case 1: Jump
+        if ( _Timer_jump.IsStartedYet() &&  _Timer_jump.IsElapsed()) 
         {
-            // Forza impulsiva
-            bolla_component?.AddForce(strenght_jump * direction_versor, ForceMode2D.Impulse);
-        } else if (Input.GetButtonDown("Fire2"))
-        {
-            // Frenamento impulsiva
-            bolla_component?.AddForce( - strenght_break * direction_versor, ForceMode2D.Impulse);
+            if ( Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1") ) 
+            {
+                // Forza impulsiva
+                bolla_component?.AddForce(strenght_jump * direction_versor, ForceMode2D.Impulse);
+
+                // Reset timer
+                _Timer_jump.Start(duration_break);
+            } 
         }
+        // Case 2: Break
+        if ( _Timer_break.IsStartedYet() &&  _Timer_break.IsElapsed()) 
+        {
+            if ( Input.GetButtonDown("Fire2") )
+            {
+                if (direction_versor.magnitude > 0) 
+                {
+                    // Frenamento impulsiva
+                    bolla_component?.AddForce( - strenght_break * direction_versor, ForceMode2D.Impulse);
+
+                    // reset timer
+                    _Timer_break.Start(duration_break);
+                }
+                
+            }
+        }
+        
 
 
     }
