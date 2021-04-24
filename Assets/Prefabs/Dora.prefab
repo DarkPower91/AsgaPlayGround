@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1011908718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845177292965712463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2936c532579649808eb6bb86ab14463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
+  reachTime: 3
+  displacement: 0.2
 --- !u!1 &3618703951672675359
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +111,7 @@ GameObject:
   - component: {fileID: 3618703951887971164}
   m_Layer: 0
   m_Name: Dora
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,7 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingPosition: {x: 0, y: 0, z: 0}
   velocity_module: 2
-  standard_thrust: 0.9
+  standard_thrust: 1.1
   strenght_jump: 1.2
   strenght_break: 0.8
   joystick: {fileID: 0}
@@ -275,6 +290,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 7152794269175259999, guid: aadc59add04de46f2ab859c07ebdf95d, type: 3}
+--- !u!1 &2845177292965712463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7371221556710737581, guid: aadc59add04de46f2ab859c07ebdf95d, type: 3}
+  m_PrefabInstance: {fileID: 4523919289475361564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4967564681635647808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8806900543812024924, guid: aadc59add04de46f2ab859c07ebdf95d, type: 3}

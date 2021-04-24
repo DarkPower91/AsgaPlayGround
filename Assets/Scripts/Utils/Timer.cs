@@ -10,7 +10,7 @@ public class Timer
     private bool _started = false;
     #endregion
 
-    public void Start(float duration = 0f) 
+    public void Start(float duration = 0f)
     {
         _startTime = Time.time;
         _duration = duration;
@@ -45,4 +45,8 @@ public class Timer
         _duration = 0f;
     }
 
+    public float GetProgressRatio()
+    {
+        return MathUtils.GetClampedPercentage(TimePassed(), 0, _duration);
+    }
 }

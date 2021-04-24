@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(PlayerInput))]
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterMovements : MonoBehaviour
 {
@@ -28,26 +28,18 @@ public class CharacterMovements : MonoBehaviour
     private float lastTime = 0.0f;
     private Timer _Timer_jump = new Timer();
     private Timer _Timer_break = new Timer();
+    private PlayerInput _input = null;
     #endregion
-    
-    private void Awake() {
 
-    }
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         // Initialize component
         bolla_component = GetComponent<Rigidbody2D>();
+        _input = GetComponent<PlayerInput>();
 
         // Initialize timers
         _Timer_break.Start();
         _Timer_jump.Start();
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 
@@ -58,10 +50,10 @@ public class CharacterMovements : MonoBehaviour
         // The physics is 
         // F = m*\vec{a} - k v^2 \vers{x},  
         // Friction setted by linear drag in RigidBody
-        axis_position = transform.position; 
-        
-        direction_versor[0] = isUsingTouch && joystick != null ? joystick.Horizontal :  Input.GetAxisRaw("Horizontal");
-        direction_versor[1] = isUsingTouch && joystick != null ? joystick.Vertical :  Input.GetAxisRaw("Vertical");
+        axis_position = transform.position;
+
+        direction_versor[0] = _input.horizontal;
+        direction_versor[1] = _input.vertical;
         direction_versor.Normalize();
 
         // Constant Acceleration case
@@ -93,7 +85,7 @@ public class CharacterMovements : MonoBehaviour
         // Case 1: Jump
         if ( _Timer_jump.IsStartedYet() &&  _Timer_jump.IsElapsed()) 
         {
-            if ( Input.GetButtonDown("Jump") || Input.GetButtonDown("Fire1") ) 
+            if ( _input.jumpPressed || _input.fire1Pressed)
             {
                 // Forza impulsiva
                 bolla_component?.AddForce(strenght_jump * direction_versor, ForceMode2D.Impulse);
@@ -105,7 +97,7 @@ public class CharacterMovements : MonoBehaviour
         // Case 2: Break
         if ( _Timer_break.IsStartedYet() &&  _Timer_break.IsElapsed()) 
         {
-            if ( Input.GetButtonDown("Fire2") )
+            if ( _input.fire2Pressed)
             {
                 if (direction_versor.magnitude > 0) 
                 {
@@ -118,8 +110,15 @@ public class CharacterMovements : MonoBehaviour
                 
             }
         }
-        
+    }
 
+    public bool IsBoostInRecharge()
+    {
+        return !_Timer_jump.IsElapsed();
+    }
 
+    public bool IsBreakInRecharge()
+    {
+        return !_Timer_break.IsElapsed();
     }
 }
