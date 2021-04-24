@@ -17,7 +17,7 @@ public class BreakColorChange : BreakListener
 
     protected override void DuringBreakAvailable()
     {
-        if(_renderer != null)
+        if (_renderer != null)
         {
             _renderer.material.color = AvailableColor;
         }
