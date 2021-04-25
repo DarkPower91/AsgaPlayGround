@@ -24,8 +24,6 @@ public class CharacterMovements : MonoBehaviour
     private Vector2 axis_position;
     private bool isUsingTouch = false;
     private Rigidbody2D bolla_component;
-    private float now = 0.0f;
-    private float lastTime = 0.0f;
     private Timer _Timer_jump = new Timer();
     private Timer _Timer_break = new Timer();
     private PlayerInput _input = null;

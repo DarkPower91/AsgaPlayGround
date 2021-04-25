@@ -7,7 +7,7 @@ public class HealthChangeEvent : UnityEvent<float> { }
 public class GameplayEvents 
 {
     public static Action LanguageChange = null;
-    public static HealthChangeEvent HealthChange = null;
+    public static HealthChangeEvent HealthChange = new HealthChangeEvent();
 
     public static void OnLanguageChange()
     {
