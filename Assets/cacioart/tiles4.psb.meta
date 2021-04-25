@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 8
+  - name: scurorock8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -113,7 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Livello 7
+  - name: scurorock7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -135,7 +135,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 780}
-  - name: Livello 6
+  - name: scurorock6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -157,7 +157,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 1556}
-  - name: Livello 5
+  - name: scurorock5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -179,7 +179,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 2332}
-  - name: Livello 4
+  - name: scurorock4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -201,7 +201,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 3108}
-  - name: Livello 3
+  - name: scurorock3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -223,7 +223,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 4}
-  - name: Livello 2
+  - name: scurorock2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -245,7 +245,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 780}
-  - name: Livello 1
+  - name: scurorock1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -286,57 +286,57 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Livello 8
-    spriteName: Livello 8
+  - name: scurorock8
+    spriteName: scurorock8
     isGroup: 0
     parentIndex: -1
     spriteID: 396fb2512f310584bab169d3af204436
     layerID: 9
     mosaicPosition: {x: 4, y: 4}
-  - name: Livello 7
-    spriteName: Livello 7
+  - name: scurorock7
+    spriteName: scurorock7
     isGroup: 0
     parentIndex: -1
     spriteID: d204537f21492644d9cc7afd904dcce3
     layerID: 8
     mosaicPosition: {x: 4, y: 780}
-  - name: Livello 6
-    spriteName: Livello 6
+  - name: scurorock6
+    spriteName: scurorock6
     isGroup: 0
     parentIndex: -1
     spriteID: 2bdb7c5ad2517eb4eaa4a82f603abd6b
     layerID: 7
     mosaicPosition: {x: 4, y: 1556}
-  - name: Livello 5
-    spriteName: Livello 5
+  - name: scurorock5
+    spriteName: scurorock5
     isGroup: 0
     parentIndex: -1
     spriteID: f4cc16322dbd6ad47a1b84ccbb43078a
     layerID: 6
     mosaicPosition: {x: 4, y: 2332}
-  - name: Livello 4
-    spriteName: Livello 4
+  - name: scurorock4
+    spriteName: scurorock4
     isGroup: 0
     parentIndex: -1
     spriteID: 309ed73a498bed24a946344b0a191b59
     layerID: 5
     mosaicPosition: {x: 4, y: 3108}
-  - name: Livello 3
-    spriteName: Livello 3
+  - name: scurorock3
+    spriteName: scurorock3
     isGroup: 0
     parentIndex: -1
     spriteID: 4379bae4b7d8a9045bbd47b57c9277c5
     layerID: 4
     mosaicPosition: {x: 780, y: 4}
-  - name: Livello 2
-    spriteName: Livello 2
+  - name: scurorock2
+    spriteName: scurorock2
     isGroup: 0
     parentIndex: -1
     spriteID: 235467f24ac14274b8b676272d648816
     layerID: 3
     mosaicPosition: {x: 780, y: 780}
-  - name: Livello 1
-    spriteName: Livello 1
+  - name: scurorock1
+    spriteName: scurorock1
     isGroup: 0
     parentIndex: -1
     spriteID: 21f3c3a3091107f4ebc82aa05fe1b43f

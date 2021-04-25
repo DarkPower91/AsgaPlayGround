@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 5
+  - name: bolle4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -113,7 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -32, y: -39}
-  - name: Livello 4
+  - name: bolle3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -135,7 +135,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -47, y: 715}
-  - name: Livello 3
+  - name: bolle2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -157,7 +157,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 641, y: -84}
-  - name: Livello 2
+  - name: bolle1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -198,29 +198,29 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Livello 5
-    spriteName: Livello 5
+  - name: bolle4
+    spriteName: bolle4
     isGroup: 0
     parentIndex: -1
     spriteID: cb9db7c10f59b3c4e9a23b15b651af6d
     layerID: 6
     mosaicPosition: {x: 4, y: 4}
-  - name: Livello 4
-    spriteName: Livello 4
+  - name: bolle3
+    spriteName: bolle3
     isGroup: 0
     parentIndex: -1
     spriteID: 468b1c1ef318f5e4aa794c5623228786
     layerID: 5
     mosaicPosition: {x: 4, y: 725}
-  - name: Livello 3
-    spriteName: Livello 3
+  - name: bolle2
+    spriteName: bolle2
     isGroup: 0
     parentIndex: -1
     spriteID: e6e46a3f6621ae64bb05306695e920f3
     layerID: 4
     mosaicPosition: {x: 716, y: 4}
-  - name: Livello 2
-    spriteName: Livello 2
+  - name: bolle1
+    spriteName: bolle1
     isGroup: 0
     parentIndex: -1
     spriteID: 205f118b3a3e3564aa99b8b5cb67bc96

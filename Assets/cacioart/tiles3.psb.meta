@@ -32,7 +32,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 768
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 9
+  - name: chiaro9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -113,7 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Livello 8
+  - name: chiaro8
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -135,7 +135,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 780}
-  - name: Livello 7
+  - name: chiaro7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -157,7 +157,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 1556}
-  - name: Livello 6
+  - name: chiaro6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -179,7 +179,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 2332}
-  - name: Livello 5
+  - name: chiaro5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -201,7 +201,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 1556}
-  - name: Livello 4
+  - name: chiaro4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -223,7 +223,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 2332}
-  - name: Livello 3
+  - name: chiaro3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -245,7 +245,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 3108}
-  - name: Livello 2
+  - name: chiaro2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -267,7 +267,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 4}
-  - name: Livello 1
+  - name: chiaro1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -289,7 +289,29 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 780}
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -308,64 +330,64 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Livello 9
-    spriteName: Livello 9
+  - name: chiaro9
+    spriteName: chiaro9
     isGroup: 0
     parentIndex: -1
     spriteID: 78fd0552cb72f0a4d8adad188021d6c6
     layerID: 10
     mosaicPosition: {x: 4, y: 4}
-  - name: Livello 8
-    spriteName: Livello 8
+  - name: chiaro8
+    spriteName: chiaro8
     isGroup: 0
     parentIndex: -1
     spriteID: f5f08e7cc43319c4d8cb04feeb50d404
     layerID: 9
     mosaicPosition: {x: 4, y: 780}
-  - name: Livello 7
-    spriteName: Livello 7
+  - name: chiaro7
+    spriteName: chiaro7
     isGroup: 0
     parentIndex: -1
     spriteID: 341f46a71787c3245a59edb0e308b3e5
     layerID: 8
     mosaicPosition: {x: 780, y: 1556}
-  - name: Livello 6
-    spriteName: Livello 6
+  - name: chiaro6
+    spriteName: chiaro6
     isGroup: 0
     parentIndex: -1
     spriteID: a6a8f4041217ff147aca280de97a623c
     layerID: 7
     mosaicPosition: {x: 780, y: 2332}
-  - name: Livello 5
-    spriteName: Livello 5
+  - name: chiaro5
+    spriteName: chiaro5
     isGroup: 0
     parentIndex: -1
     spriteID: 82468f21f01f86141874e9433b888eee
     layerID: 6
     mosaicPosition: {x: 4, y: 1556}
-  - name: Livello 4
-    spriteName: Livello 4
+  - name: chiaro4
+    spriteName: chiaro4
     isGroup: 0
     parentIndex: -1
     spriteID: 07dd7fd0f0e95bd45b8a1e5be8e4728e
     layerID: 5
     mosaicPosition: {x: 4, y: 2332}
-  - name: Livello 3
-    spriteName: Livello 3
+  - name: chiaro3
+    spriteName: chiaro3
     isGroup: 0
     parentIndex: -1
     spriteID: 9fd8070678e60b842aa73880d57b2b9b
     layerID: 4
     mosaicPosition: {x: 4, y: 3108}
-  - name: Livello 2
-    spriteName: Livello 2
+  - name: chiaro2
+    spriteName: chiaro2
     isGroup: 0
     parentIndex: -1
     spriteID: 1fbbcf9ce8aa3bf4d81d9f08d0c99611
     layerID: 3
     mosaicPosition: {x: 780, y: 4}
-  - name: Livello 1
-    spriteName: Livello 1
+  - name: chiaro1
+    spriteName: chiaro1
     isGroup: 0
     parentIndex: -1
     spriteID: 6bc41d36f46e5da48abe4fb28bd4d55b
