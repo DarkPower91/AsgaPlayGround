@@ -45,6 +45,17 @@ public class Timer
         _duration = 0f;
     }
 
+    public float GetRemainingTime()
+    {
+        if (_started && _duration > 0f) 
+        {
+            return _duration - TimePassed();
+        } else 
+        {
+            return 0f;
+        }
+    }
+
     public float GetProgressRatio()
     {
         return MathUtils.GetClampedPercentage(TimePassed(), 0, _duration);
