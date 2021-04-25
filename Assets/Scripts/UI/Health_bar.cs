@@ -13,7 +13,8 @@ public class Health_bar : MonoBehaviour
     private Health _player_health;
     #endregion
     
-    private void Awake() {
+    private void Awake()
+    {
         _mover = FindObjectOfType<CharacterMovements>();
         health_slider = GetComponent<Slider>();
         _player_health = FindObjectOfType<Health>();
@@ -21,29 +22,11 @@ public class Health_bar : MonoBehaviour
         GameplayEvents.HealthChange.AddListener(ChangeSliderOnHealthChange);
     }
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void ChangeSliderOnHealthChange(float new_health) 
     {
         //Debug.Log("Changing health from " + _player_health.health_bar + " to " + new_health);
         // Change 
-        health_slider.value = Mathf.Clamp(
-            new_health/_player_health.max_health,
-            0,
-            1
-        );
+        health_slider.value = MathUtils.GetClampedPercentage(new_health, 0, _player_health.max_health);
         // If health too low, detrosy
         /* if (health_bar<=0f)
         {
