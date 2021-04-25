@@ -542,7 +542,7 @@ ScriptedImporter:
       y: 4
       width: 768
       height: 702
-    spriteID: 5c71d91a0f698094cbacc32f9cc71146
+    spriteID: a529a9d8ef97c394baf82a947054eac9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -564,7 +564,7 @@ ScriptedImporter:
       y: 714
       width: 702
       height: 768
-    spriteID: 7426ad8ffb804e24eb15f5beb0d1100b
+    spriteID: 880e2e8e809efbe4bbf830ec479b98a8
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -586,7 +586,7 @@ ScriptedImporter:
       y: 1490
       width: 768
       height: 702
-    spriteID: 43de8d0b978e799449cf4c296705a2a8
+    spriteID: 7c90c8b3e2c31464e86c090ff40a61a2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -608,7 +608,7 @@ ScriptedImporter:
       y: 4660
       width: 768
       height: 732
-    spriteID: 06b9aeac53b0a1e4a9f225e87ac18e65
+    spriteID: 3b7262ab8a03b9d4a8bc85bd716ac29c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -630,7 +630,7 @@ ScriptedImporter:
       y: 5400
       width: 732
       height: 768
-    spriteID: bc956a762e13fb24895d44c5f156bcd8
+    spriteID: 9b22b07b50410904eae5d66f69eaaa52
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -652,7 +652,7 @@ ScriptedImporter:
       y: 6176
       width: 768
       height: 732
-    spriteID: 7b727f18d8f4dc74c8ef7a968aeff469
+    spriteID: e629b2e68cb120b48a2decc56d656423
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -674,7 +674,7 @@ ScriptedImporter:
       y: 7692
       width: 768
       height: 493
-    spriteID: 875d5c475c85b244a9fc8a3ddf261cb1
+    spriteID: f7e44c1ea9240814d9ec2e258a0aa7fc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -696,7 +696,7 @@ ScriptedImporter:
       y: 5872
       width: 493
       height: 768
-    spriteID: a5e8e533209de7f418cf49e1377c1ceb
+    spriteID: 5fa1971458b45004f89c4503a8a92f3a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -718,7 +718,7 @@ ScriptedImporter:
       y: 6648
       width: 768
       height: 493
-    spriteID: 2e52cb5857aa8324d96ff7b24e10b9d3
+    spriteID: ddd1817ebd9a53b4b9bb61b224d00b72
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -740,7 +740,7 @@ ScriptedImporter:
       y: 2976
       width: 768
       height: 664
-    spriteID: 24b9f809703b429489d917f8dfaade5d
+    spriteID: a5b4756959104594596f0a61e2f71884
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -762,7 +762,7 @@ ScriptedImporter:
       y: 3648
       width: 664
       height: 768
-    spriteID: 8d22ca4023698da46817d710976ebc1c
+    spriteID: e98dbff45e3f0d04eb2cd7424399e923
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -784,7 +784,7 @@ ScriptedImporter:
       y: 4424
       width: 768
       height: 664
-    spriteID: 923ea72505a1f5a4f9927387ae0a2ef9
+    spriteID: a733bce245b233542a22dcb9fc7b7899
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -840,21 +840,21 @@ ScriptedImporter:
     spriteName: scurorock10bgiu
     isGroup: 0
     parentIndex: -1
-    spriteID: 5c71d91a0f698094cbacc32f9cc71146
+    spriteID: a529a9d8ef97c394baf82a947054eac9
     layerID: 34
     mosaicPosition: {x: 1556, y: 4}
   - name: scurorock10bdx
     spriteName: scurorock10bdx
     isGroup: 0
     parentIndex: -1
-    spriteID: 7426ad8ffb804e24eb15f5beb0d1100b
+    spriteID: 880e2e8e809efbe4bbf830ec479b98a8
     layerID: 33
     mosaicPosition: {x: 1556, y: 714}
   - name: scurorock10bsu
     spriteName: scurorock10bsu
     isGroup: 0
     parentIndex: -1
-    spriteID: 43de8d0b978e799449cf4c296705a2a8
+    spriteID: 7c90c8b3e2c31464e86c090ff40a61a2
     layerID: 32
     mosaicPosition: {x: 1556, y: 1490}
   - name: scurorock10b
@@ -868,21 +868,21 @@ ScriptedImporter:
     spriteName: scurorock10giu
     isGroup: 0
     parentIndex: -1
-    spriteID: 06b9aeac53b0a1e4a9f225e87ac18e65
+    spriteID: 3b7262ab8a03b9d4a8bc85bd716ac29c
     layerID: 31
     mosaicPosition: {x: 780, y: 4660}
   - name: scurorock10dx
     spriteName: scurorock10dx
     isGroup: 0
     parentIndex: -1
-    spriteID: bc956a762e13fb24895d44c5f156bcd8
+    spriteID: 9b22b07b50410904eae5d66f69eaaa52
     layerID: 30
     mosaicPosition: {x: 780, y: 5400}
   - name: scurorock10su
     spriteName: scurorock10su
     isGroup: 0
     parentIndex: -1
-    spriteID: 7b727f18d8f4dc74c8ef7a968aeff469
+    spriteID: e629b2e68cb120b48a2decc56d656423
     layerID: 29
     mosaicPosition: {x: 780, y: 6176}
   - name: scurorock10
@@ -896,21 +896,21 @@ ScriptedImporter:
     spriteName: scurorock9bgiu
     isGroup: 0
     parentIndex: -1
-    spriteID: 875d5c475c85b244a9fc8a3ddf261cb1
+    spriteID: f7e44c1ea9240814d9ec2e258a0aa7fc
     layerID: 28
     mosaicPosition: {x: 780, y: 7692}
   - name: scurorock9bdx
     spriteName: scurorock9bdx
     isGroup: 0
     parentIndex: -1
-    spriteID: a5e8e533209de7f418cf49e1377c1ceb
+    spriteID: 5fa1971458b45004f89c4503a8a92f3a
     layerID: 27
     mosaicPosition: {x: 1556, y: 5872}
   - name: scurorock9bsu
     spriteName: scurorock9bsu
     isGroup: 0
     parentIndex: -1
-    spriteID: 2e52cb5857aa8324d96ff7b24e10b9d3
+    spriteID: ddd1817ebd9a53b4b9bb61b224d00b72
     layerID: 26
     mosaicPosition: {x: 1556, y: 6648}
   - name: scurorock9b
@@ -924,21 +924,21 @@ ScriptedImporter:
     spriteName: scurorock9giu
     isGroup: 0
     parentIndex: -1
-    spriteID: 24b9f809703b429489d917f8dfaade5d
+    spriteID: a5b4756959104594596f0a61e2f71884
     layerID: 25
     mosaicPosition: {x: 1556, y: 2976}
   - name: scurorock9dx
     spriteName: scurorock9dx
     isGroup: 0
     parentIndex: -1
-    spriteID: 8d22ca4023698da46817d710976ebc1c
+    spriteID: e98dbff45e3f0d04eb2cd7424399e923
     layerID: 24
     mosaicPosition: {x: 1556, y: 3648}
   - name: scurorock9su
     spriteName: scurorock9su
     isGroup: 0
     parentIndex: -1
-    spriteID: 923ea72505a1f5a4f9927387ae0a2ef9
+    spriteID: a733bce245b233542a22dcb9fc7b7899
     layerID: 23
     mosaicPosition: {x: 1556, y: 4424}
   - name: scurorock9

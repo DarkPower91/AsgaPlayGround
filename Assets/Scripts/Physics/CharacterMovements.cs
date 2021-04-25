@@ -16,6 +16,7 @@ public class CharacterMovements : MonoBehaviour
     public bool isForceMode = true;
     public float duration_break = 5f;
     public float duration_jump = 5f;
+    public float gravity_factor = 0f;
     #endregion
 
     #region Private objects
@@ -23,16 +24,20 @@ public class CharacterMovements : MonoBehaviour
     private Vector2 applied_integrated_force = new Vector2(1.0f, 0.0f);
     private Vector2 axis_position;
     private bool isUsingTouch = false;
-    private Rigidbody2D bolla_component;
+    private Rigidbody2D _bolla_component;
     private Timer _Timer_jump = new Timer();
     private Timer _Timer_break = new Timer();
     private PlayerInput _input = null;
     #endregion
 
+    private void Awake() 
+    {
+        FlowManager.OnGameStateChanged += CheckPhysicsOnGameChange;
+    }
     private void Start()
     {
         // Initialize component
-        bolla_component = GetComponent<Rigidbody2D>();
+        _bolla_component = GetComponent<Rigidbody2D>();
         _input = GetComponent<PlayerInput>();
 
         // Initialize timers
@@ -62,7 +67,7 @@ public class CharacterMovements : MonoBehaviour
             {
                 applied_integrated_force = velocity_module*direction_versor;
                 // Since acceleration is constant we use setVelocity
-                bolla_component.velocity = applied_integrated_force;
+                _bolla_component.velocity = applied_integrated_force;
             }
             
         } else // We mainly use this
@@ -70,7 +75,7 @@ public class CharacterMovements : MonoBehaviour
             // Here instead players applies force
             if (direction_versor.magnitude > 0) 
             {
-                bolla_component?.AddForce(standard_thrust*direction_versor);
+                _bolla_component?.AddForce(standard_thrust*direction_versor);
             }
             // Other version - commented out
             //bolla_component?.AddForce(standard_thrust*direction_versor, ForceMode2D.Impulse);
@@ -86,7 +91,7 @@ public class CharacterMovements : MonoBehaviour
             if ( _input.jumpPressed || _input.fire1Pressed)
             {
                 // Forza impulsiva
-                bolla_component?.AddForce(strenght_jump * direction_versor, ForceMode2D.Impulse);
+                _bolla_component?.AddForce(strenght_jump * direction_versor, ForceMode2D.Impulse);
 
                 // Reset timer
                 _Timer_jump.Start(duration_break);
@@ -100,7 +105,7 @@ public class CharacterMovements : MonoBehaviour
                 if (direction_versor.magnitude > 0) 
                 {
                     // Frenamento impulsiva
-                    bolla_component?.AddForce( - strenght_break * direction_versor, ForceMode2D.Impulse);
+                    _bolla_component?.AddForce( - strenght_break * direction_versor, ForceMode2D.Impulse);
 
                     // reset timer
                     _Timer_break.Start(duration_break);
@@ -118,5 +123,35 @@ public class CharacterMovements : MonoBehaviour
     public bool IsBreakInRecharge()
     {
         return !_Timer_break.IsElapsed();
+    }
+    
+    private void SetGravityToValue(float value)
+    {
+        _bolla_component.gravityScale = value;
+    }
+
+    private void CheckPhysicsOnGameChange(GameState new_gamestate)
+    {
+        //Debug.Log("New game state: " + new_gamestate);
+        switch (new_gamestate)
+        {
+            case GameState.InGame:
+                {
+                    SetGravityToValue(gravity_factor);
+                    break;
+                }
+            case GameState.MainMenu:
+            case GameState.InCredits:
+            case GameState.GameOver:
+            case GameState.InPause:
+            case GameState.InDex:
+                {
+                    SetGravityToValue(0f);
+                    break;
+                }
+            default:
+                break;
+        }
+        
     }
 }
