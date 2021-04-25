@@ -43,10 +43,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211345c01b45143feb7f614742d928ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MainMenuSound: {fileID: 0}
-  m_InGameSoundIntro: {fileID: 0}
-  m_InGameSoundLoop: {fileID: 0}
-  m_InCreditsEasterEgg: {fileID: 0}
+  m_MainMenuSound: {fileID: 8300000, guid: 5ee7be15a32633644ac089c62aecb126, type: 3}
+  m_InGameSoundIntro: {fileID: 8300000, guid: e64d97e509b081f438a62c649a5b81c1, type: 3}
+  m_InGameSoundLoop: {fileID: 8300000, guid: b9bf27c5a4b66fc43872d80c2974673b, type: 3}
+  m_InCreditsEasterEgg: {fileID: 8300000, guid: 5ee7be15a32633644ac089c62aecb126, type: 3}
