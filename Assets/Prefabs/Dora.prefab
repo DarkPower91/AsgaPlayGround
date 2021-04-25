@@ -104,6 +104,25 @@ MonoBehaviour:
   joystick: {fileID: 0}
   reachTime: 3
   displacement: 0.2
+--- !u!95 &347403896570719938
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845177292965712463}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c5bd9e5a7da0fa438a3afe064336482, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &2078552376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +246,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0.5
   m_AngularDrag: 0.05
-  m_GravityScale: 0.1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: d7ac43d00b0144148b7e732713c0a68a, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -254,6 +273,7 @@ MonoBehaviour:
   isForceMode: 1
   duration_break: 5
   duration_jump: 5
+  gravity_factor: 0
 --- !u!114 &7552781454330036682
 MonoBehaviour:
   m_ObjectHideFlags: 0
