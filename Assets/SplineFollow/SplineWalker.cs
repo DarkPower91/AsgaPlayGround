@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 
-public class SplineWalker : MonoBehaviour {
+public class SplineWalker : MonoBehaviour
+{
 
 	public BezierSpline spline;
 
 	public float duration;
+	public float maxDistance = 5.0f;
 
 	public bool lookForward;
 
@@ -13,25 +15,45 @@ public class SplineWalker : MonoBehaviour {
 	private float progress;
 	private bool goingForward = true;
 
-	private void Update () {
-		if (goingForward) {
+	private GameObject player = null;
+
+    private void Start()
+    {
+		player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    private void Update()
+	{
+		if(player != null && Vector2.Distance(player.transform.position, transform.position) > maxDistance)
+        {
+			return;
+        }
+
+		if (goingForward)
+		{
 			progress += Time.deltaTime / duration;
-			if (progress > 1f) {
-				if (mode == SplineWalkerMode.Once) {
+			if (progress > 1f)
+			{
+				if (mode == SplineWalkerMode.Once)
+				{
 					progress = 1f;
 				}
-				else if (mode == SplineWalkerMode.Loop) {
+				else if (mode == SplineWalkerMode.Loop)
+				{
 					progress -= 1f;
 				}
-				else {
+				else
+				{
 					progress = 2f - progress;
 					goingForward = false;
 				}
 			}
 		}
-		else {
+		else
+		{
 			progress -= Time.deltaTime / duration;
-			if (progress < 0f) {
+			if (progress < 0f)
+			{
 				progress = -progress;
 				goingForward = true;
 			}
@@ -39,10 +61,13 @@ public class SplineWalker : MonoBehaviour {
 
 		Vector3 position = spline.GetPoint(progress);
 		transform.localPosition = position;
-		if (lookForward) {
+
+		if (lookForward)
+		{
 			Vector3 p = spline.GetDirection(progress);
-			float rot_z = Mathf.Atan2(p.y, p.x)* Mathf.Rad2Deg;
-			transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+			float rot_z = Mathf.Atan2(p.y, p.x) * Mathf.Rad2Deg;
+			float sign = goingForward ? -1 : 1;
+			transform.rotation = Quaternion.Euler(0f, 0f, rot_z + sign * 90);
 		}
 	}
 }
