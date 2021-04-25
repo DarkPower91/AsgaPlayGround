@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Livello 8
+  - name: scuroveg9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -113,7 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Livello 7
+  - name: scuroveg7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -121,7 +121,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 780
+      y: 1556
       width: 768
       height: 768
     spriteID: 5917915316fa74aa8bf73e62ccd1e4c7
@@ -134,8 +134,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 780}
-  - name: Livello 6
+    uvTransform: {x: 4, y: 1556}
+  - name: scuroveg6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -143,7 +143,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1556
+      y: 2332
       width: 768
       height: 768
     spriteID: 318a041b55785446c896b15938df6649
@@ -156,8 +156,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1556}
-  - name: Livello 4
+    uvTransform: {x: 4, y: 2332}
+  - name: scuroveg5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -165,7 +165,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2332
+      y: 3108
       width: 768
       height: 768
     spriteID: a90cb8540f69a4c04804c0372854a784
@@ -178,16 +178,16 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2332}
-  - name: Livello 5
+    uvTransform: {x: 4, y: 3108}
+  - name: scuroveg4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 3108
+      x: 780
+      y: 4
       width: 768
       height: 768
     spriteID: 93a7d114398ba439896cd9bcbee14a31
@@ -200,8 +200,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 3108}
-  - name: Livello 3
+    uvTransform: {x: 780, y: 4}
+  - name: scuroveg3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -209,7 +209,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 780
-      y: 4
+      y: 780
       width: 768
       height: 768
     spriteID: e9b18d4fad5354dc59d854344a800638
@@ -222,8 +222,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 4}
-  - name: Livello 2
+    uvTransform: {x: 780, y: 780}
+  - name: scuroveg2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -231,7 +231,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 780
-      y: 780
+      y: 1556
       width: 768
       height: 768
     spriteID: 717aac9b244bb44d39765651df778993
@@ -244,8 +244,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 780}
-  - name: Livello 1
+    uvTransform: {x: 780, y: 1556}
+  - name: scuroveg1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -253,7 +253,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 780
-      y: 1556
+      y: 2332
       width: 768
       height: 768
     spriteID: c2eba6f58a6d6497293496d0ed12bf31
@@ -266,7 +266,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 1556}
+    uvTransform: {x: 780, y: 2332}
+  - name: scuroveg8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 780
+      width: 768
+      height: 768
+    spriteID: 077768859fe903a4192e7bc395a80e10
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 780}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -286,62 +308,69 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Livello 8
-    spriteName: Livello 8
+  - name: scuroveg9
+    spriteName: scuroveg9
     isGroup: 0
     parentIndex: -1
     spriteID: d78c47bcf0dd64dd38d35db7e16c96f9
     layerID: 9
     mosaicPosition: {x: 4, y: 4}
-  - name: Livello 7
-    spriteName: Livello 7
+  - name: scuroveg8
+    spriteName: scuroveg8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 077768859fe903a4192e7bc395a80e10
+    layerID: 10
+    mosaicPosition: {x: 4, y: 780}
+  - name: scuroveg7
+    spriteName: scuroveg7
     isGroup: 0
     parentIndex: -1
     spriteID: 5917915316fa74aa8bf73e62ccd1e4c7
     layerID: 8
-    mosaicPosition: {x: 4, y: 780}
-  - name: Livello 6
-    spriteName: Livello 6
+    mosaicPosition: {x: 4, y: 1556}
+  - name: scuroveg6
+    spriteName: scuroveg6
     isGroup: 0
     parentIndex: -1
     spriteID: 318a041b55785446c896b15938df6649
     layerID: 7
-    mosaicPosition: {x: 4, y: 1556}
-  - name: Livello 4
-    spriteName: Livello 4
+    mosaicPosition: {x: 4, y: 2332}
+  - name: scuroveg5
+    spriteName: scuroveg5
     isGroup: 0
     parentIndex: -1
     spriteID: a90cb8540f69a4c04804c0372854a784
     layerID: 5
-    mosaicPosition: {x: 4, y: 2332}
-  - name: Livello 5
-    spriteName: Livello 5
+    mosaicPosition: {x: 4, y: 3108}
+  - name: scuroveg4
+    spriteName: scuroveg4
     isGroup: 0
     parentIndex: -1
     spriteID: 93a7d114398ba439896cd9bcbee14a31
     layerID: 6
-    mosaicPosition: {x: 4, y: 3108}
-  - name: Livello 3
-    spriteName: Livello 3
+    mosaicPosition: {x: 780, y: 4}
+  - name: scuroveg3
+    spriteName: scuroveg3
     isGroup: 0
     parentIndex: -1
     spriteID: e9b18d4fad5354dc59d854344a800638
     layerID: 4
-    mosaicPosition: {x: 780, y: 4}
-  - name: Livello 2
-    spriteName: Livello 2
+    mosaicPosition: {x: 780, y: 780}
+  - name: scuroveg2
+    spriteName: scuroveg2
     isGroup: 0
     parentIndex: -1
     spriteID: 717aac9b244bb44d39765651df778993
     layerID: 3
-    mosaicPosition: {x: 780, y: 780}
-  - name: Livello 1
-    spriteName: Livello 1
+    mosaicPosition: {x: 780, y: 1556}
+  - name: scuroveg1
+    spriteName: scuroveg1
     isGroup: 0
     parentIndex: -1
     spriteID: c2eba6f58a6d6497293496d0ed12bf31
     layerID: 2
-    mosaicPosition: {x: 780, y: 1556}
+    mosaicPosition: {x: 780, y: 2332}
   characterData:
     bones: []
     parts: []
