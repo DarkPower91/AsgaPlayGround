@@ -11,10 +11,12 @@ public class DisplaceDora : MonoBehaviour
     private Timer timer = new Timer();
     private bool _isUsingTouch = false;
     private PlayerInput _input = null;
+    private Transform _parentTransform;
 
     private void Start()
     {
         _input = GetComponentInParent<PlayerInput>();
+        _parentTransform = GetComponentInParent<Transform>();
         _currrentDirection = transform.localPosition;
     }
 
@@ -28,8 +30,10 @@ public class DisplaceDora : MonoBehaviour
 
         SetWantedDestination(newDirection);
 
+        Quaternion parentRotation = _parentTransform.rotation;
+
         _currrentDirection = Vector3.Lerp(_currrentDirection, _wantedDirection, timer.GetProgressRatio());
-        transform.localPosition = _currrentDirection;
+        transform.localPosition = Quaternion.Inverse(parentRotation) * _currrentDirection;
     }
 
     private void SetWantedDestination(Vector3 newDireciton)
