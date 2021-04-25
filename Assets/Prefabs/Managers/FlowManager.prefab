@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4658217253798085989}
   m_Layer: 0
   m_Name: FlowManager
-  m_TagString: Untagged
+  m_TagString: FlowManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
