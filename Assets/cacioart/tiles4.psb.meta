@@ -142,8 +142,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 780
-      y: 4
+      x: 4
+      y: 3884
       width: 768
       height: 768
     spriteID: 2bdb7c5ad2517eb4eaa4a82f603abd6b
@@ -156,7 +156,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 4}
+    uvTransform: {x: 4, y: 3884}
   - name: scurorock5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -164,8 +164,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 780
-      y: 1556
+      x: 4
+      y: 5436
       width: 768
       height: 768
     spriteID: f4cc16322dbd6ad47a1b84ccbb43078a
@@ -178,7 +178,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 1556}
+    uvTransform: {x: 4, y: 5436}
   - name: scurorock4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -186,8 +186,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 780
-      y: 3108
+      x: 4
+      y: 6988
       width: 768
       height: 768
     spriteID: 309ed73a498bed24a946344b0a191b59
@@ -200,7 +200,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 3108}
+    uvTransform: {x: 4, y: 6988}
   - name: scurorock3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -208,7 +208,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1556
+      x: 780
       y: 780
       width: 768
       height: 768
@@ -222,7 +222,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1556, y: 780}
+    uvTransform: {x: 780, y: 780}
   - name: scurorock2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -230,7 +230,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1556
+      x: 780
       y: 2332
       width: 768
       height: 768
@@ -244,7 +244,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1556, y: 2332}
+    uvTransform: {x: 780, y: 2332}
   - name: scurorock1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -252,8 +252,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2332
-      y: 4
+      x: 780
+      y: 3884
       width: 768
       height: 768
     spriteID: 21f3c3a3091107f4ebc82aa05fe1b43f
@@ -266,7 +266,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2332, y: 4}
+    uvTransform: {x: 780, y: 3884}
   - name: scurorock8b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -340,8 +340,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 780
-      y: 780
+      x: 4
+      y: 4660
       width: 768
       height: 768
     spriteID: 40b49f1543f5ca64ba941b28cd02c2c0
@@ -354,7 +354,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 780}
+    uvTransform: {x: 4, y: 4660}
   - name: scurorock4b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -362,8 +362,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 780
-      y: 2332
+      x: 4
+      y: 6212
       width: 768
       height: 768
     spriteID: a319db1438d1e1745a1a6812e3172bfb
@@ -376,7 +376,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 780, y: 2332}
+    uvTransform: {x: 4, y: 6212}
   - name: scurorock3b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -384,7 +384,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1556
+      x: 780
       y: 4
       width: 768
       height: 768
@@ -398,7 +398,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1556, y: 4}
+    uvTransform: {x: 780, y: 4}
   - name: scurorock2b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -406,7 +406,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1556
+      x: 780
       y: 1556
       width: 768
       height: 768
@@ -420,7 +420,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1556, y: 1556}
+    uvTransform: {x: 780, y: 1556}
   - name: scurorock1b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -428,7 +428,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1556
+      x: 780
       y: 3108
       width: 768
       height: 768
@@ -442,7 +442,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1556, y: 3108}
+    uvTransform: {x: 780, y: 3108}
   - name: scurorock10b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -450,8 +450,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2332
-      y: 1556
+      x: 1556
+      y: 2200
       width: 702
       height: 768
     spriteID: d037145567f83e748b8f2c133d4067c5
@@ -464,7 +464,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2266, y: 1556}
+    uvTransform: {x: 1490, y: 2200}
   - name: scurorock10
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -472,8 +472,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2332
-      y: 780
+      x: 780
+      y: 6916
       width: 732
       height: 768
     spriteID: ced1dc7d675c90c42adcf7cb2b4ecf70
@@ -486,7 +486,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2296, y: 780}
+    uvTransform: {x: 744, y: 6916}
   - name: scurorock9b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -494,8 +494,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2332
-      y: 3108
+      x: 1556
+      y: 7149
       width: 493
       height: 768
     spriteID: ff44f279213475c4c92276f5226376eb
@@ -508,7 +508,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2057, y: 3108}
+    uvTransform: {x: 1281, y: 7149}
   - name: scurorock9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -516,8 +516,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2332
-      y: 2332
+      x: 1556
+      y: 5096
       width: 664
       height: 768
     spriteID: bb5d02226fee050428e7d199627f7906
@@ -530,7 +530,271 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2228, y: 2332}
+    uvTransform: {x: 1452, y: 5096}
+  - name: scurorock10bgiu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 4
+      width: 768
+      height: 702
+    spriteID: a529a9d8ef97c394baf82a947054eac9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: -62}
+  - name: scurorock10bdx
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 714
+      width: 702
+      height: 768
+    spriteID: 880e2e8e809efbe4bbf830ec479b98a8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 714}
+  - name: scurorock10bsu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 1490
+      width: 768
+      height: 702
+    spriteID: 7c90c8b3e2c31464e86c090ff40a61a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 1490}
+  - name: scurorock10giu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 4660
+      width: 768
+      height: 732
+    spriteID: 3b7262ab8a03b9d4a8bc85bd716ac29c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 4624}
+  - name: scurorock10dx
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 5400
+      width: 732
+      height: 768
+    spriteID: 9b22b07b50410904eae5d66f69eaaa52
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 5400}
+  - name: scurorock10su
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 6176
+      width: 768
+      height: 732
+    spriteID: e629b2e68cb120b48a2decc56d656423
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 6176}
+  - name: scurorock9bgiu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 7692
+      width: 768
+      height: 493
+    spriteID: f7e44c1ea9240814d9ec2e258a0aa7fc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 7417}
+  - name: scurorock9bdx
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 5872
+      width: 493
+      height: 768
+    spriteID: 5fa1971458b45004f89c4503a8a92f3a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 5872}
+  - name: scurorock9bsu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 6648
+      width: 768
+      height: 493
+    spriteID: ddd1817ebd9a53b4b9bb61b224d00b72
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 6648}
+  - name: scurorock9giu
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 2976
+      width: 768
+      height: 664
+    spriteID: a5b4756959104594596f0a61e2f71884
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 2872}
+  - name: scurorock9dx
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 3648
+      width: 664
+      height: 768
+    spriteID: e98dbff45e3f0d04eb2cd7424399e923
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 3648}
+  - name: scurorock9su
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 4424
+      width: 768
+      height: 664
+    spriteID: a733bce245b233542a22dcb9fc7b7899
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 4424}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -558,7 +822,7 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
+  importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 768, y: 768}
   paperDollMode: 0
@@ -566,40 +830,124 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   textureActualWidth: 4096
-  textureActualHeight: 4096
+  textureActualHeight: 8192
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: scurorock10bgiu
+    spriteName: scurorock10bgiu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a529a9d8ef97c394baf82a947054eac9
+    layerID: 34
+    mosaicPosition: {x: 1556, y: 4}
+  - name: scurorock10bdx
+    spriteName: scurorock10bdx
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 880e2e8e809efbe4bbf830ec479b98a8
+    layerID: 33
+    mosaicPosition: {x: 1556, y: 714}
+  - name: scurorock10bsu
+    spriteName: scurorock10bsu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7c90c8b3e2c31464e86c090ff40a61a2
+    layerID: 32
+    mosaicPosition: {x: 1556, y: 1490}
   - name: scurorock10b
     spriteName: scurorock10b
     isGroup: 0
     parentIndex: -1
     spriteID: d037145567f83e748b8f2c133d4067c5
     layerID: 21
-    mosaicPosition: {x: 2332, y: 1556}
+    mosaicPosition: {x: 1556, y: 2200}
+  - name: scurorock10giu
+    spriteName: scurorock10giu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3b7262ab8a03b9d4a8bc85bd716ac29c
+    layerID: 31
+    mosaicPosition: {x: 780, y: 4660}
+  - name: scurorock10dx
+    spriteName: scurorock10dx
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b22b07b50410904eae5d66f69eaaa52
+    layerID: 30
+    mosaicPosition: {x: 780, y: 5400}
+  - name: scurorock10su
+    spriteName: scurorock10su
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e629b2e68cb120b48a2decc56d656423
+    layerID: 29
+    mosaicPosition: {x: 780, y: 6176}
   - name: scurorock10
     spriteName: scurorock10
     isGroup: 0
     parentIndex: -1
     spriteID: ced1dc7d675c90c42adcf7cb2b4ecf70
     layerID: 20
-    mosaicPosition: {x: 2332, y: 780}
+    mosaicPosition: {x: 780, y: 6916}
+  - name: scurorock9bgiu
+    spriteName: scurorock9bgiu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7e44c1ea9240814d9ec2e258a0aa7fc
+    layerID: 28
+    mosaicPosition: {x: 780, y: 7692}
+  - name: scurorock9bdx
+    spriteName: scurorock9bdx
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5fa1971458b45004f89c4503a8a92f3a
+    layerID: 27
+    mosaicPosition: {x: 1556, y: 5872}
+  - name: scurorock9bsu
+    spriteName: scurorock9bsu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ddd1817ebd9a53b4b9bb61b224d00b72
+    layerID: 26
+    mosaicPosition: {x: 1556, y: 6648}
   - name: scurorock9b
     spriteName: scurorock9b
     isGroup: 0
     parentIndex: -1
     spriteID: ff44f279213475c4c92276f5226376eb
     layerID: 19
-    mosaicPosition: {x: 2332, y: 3108}
+    mosaicPosition: {x: 1556, y: 7149}
+  - name: scurorock9giu
+    spriteName: scurorock9giu
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a5b4756959104594596f0a61e2f71884
+    layerID: 25
+    mosaicPosition: {x: 1556, y: 2976}
+  - name: scurorock9dx
+    spriteName: scurorock9dx
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e98dbff45e3f0d04eb2cd7424399e923
+    layerID: 24
+    mosaicPosition: {x: 1556, y: 3648}
+  - name: scurorock9su
+    spriteName: scurorock9su
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a733bce245b233542a22dcb9fc7b7899
+    layerID: 23
+    mosaicPosition: {x: 1556, y: 4424}
   - name: scurorock9
     spriteName: scurorock9
     isGroup: 0
     parentIndex: -1
     spriteID: bb5d02226fee050428e7d199627f7906
     layerID: 18
-    mosaicPosition: {x: 2332, y: 2332}
+    mosaicPosition: {x: 1556, y: 5096}
   - name: scurorock8b
     spriteName: scurorock8b
     isGroup: 0
@@ -641,77 +989,77 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 2bdb7c5ad2517eb4eaa4a82f603abd6b
     layerID: 7
-    mosaicPosition: {x: 780, y: 4}
+    mosaicPosition: {x: 4, y: 3884}
   - name: scurorock5b
     spriteName: scurorock5b
     isGroup: 0
     parentIndex: -1
     spriteID: 40b49f1543f5ca64ba941b28cd02c2c0
     layerID: 14
-    mosaicPosition: {x: 780, y: 780}
+    mosaicPosition: {x: 4, y: 4660}
   - name: scurorock5
     spriteName: scurorock5
     isGroup: 0
     parentIndex: -1
     spriteID: f4cc16322dbd6ad47a1b84ccbb43078a
     layerID: 6
-    mosaicPosition: {x: 780, y: 1556}
+    mosaicPosition: {x: 4, y: 5436}
   - name: scurorock4b
     spriteName: scurorock4b
     isGroup: 0
     parentIndex: -1
     spriteID: a319db1438d1e1745a1a6812e3172bfb
     layerID: 13
-    mosaicPosition: {x: 780, y: 2332}
+    mosaicPosition: {x: 4, y: 6212}
   - name: scurorock4
     spriteName: scurorock4
     isGroup: 0
     parentIndex: -1
     spriteID: 309ed73a498bed24a946344b0a191b59
     layerID: 5
-    mosaicPosition: {x: 780, y: 3108}
+    mosaicPosition: {x: 4, y: 6988}
   - name: scurorock3b
     spriteName: scurorock3b
     isGroup: 0
     parentIndex: -1
     spriteID: 33aecc935fd4b6e4abe8e45b8716dbe5
     layerID: 12
-    mosaicPosition: {x: 1556, y: 4}
+    mosaicPosition: {x: 780, y: 4}
   - name: scurorock3
     spriteName: scurorock3
     isGroup: 0
     parentIndex: -1
     spriteID: 4379bae4b7d8a9045bbd47b57c9277c5
     layerID: 4
-    mosaicPosition: {x: 1556, y: 780}
+    mosaicPosition: {x: 780, y: 780}
   - name: scurorock2b
     spriteName: scurorock2b
     isGroup: 0
     parentIndex: -1
     spriteID: 55457f9c070fc9445ab28b8e0a2e8a8a
     layerID: 11
-    mosaicPosition: {x: 1556, y: 1556}
+    mosaicPosition: {x: 780, y: 1556}
   - name: scurorock2
     spriteName: scurorock2
     isGroup: 0
     parentIndex: -1
     spriteID: 235467f24ac14274b8b676272d648816
     layerID: 3
-    mosaicPosition: {x: 1556, y: 2332}
+    mosaicPosition: {x: 780, y: 2332}
   - name: scurorock1b
     spriteName: scurorock1b
     isGroup: 0
     parentIndex: -1
     spriteID: 90b300a7b39a34e46b56c3608a4912e0
     layerID: 10
-    mosaicPosition: {x: 1556, y: 3108}
+    mosaicPosition: {x: 780, y: 3108}
   - name: scurorock1
     spriteName: scurorock1
     isGroup: 0
     parentIndex: -1
     spriteID: 21f3c3a3091107f4ebc82aa05fe1b43f
     layerID: 2
-    mosaicPosition: {x: 2332, y: 4}
+    mosaicPosition: {x: 780, y: 3884}
   characterData:
     bones: []
     parts: []
