@@ -40,7 +40,9 @@ public class SplineWalker : MonoBehaviour {
 		Vector3 position = spline.GetPoint(progress);
 		transform.localPosition = position;
 		if (lookForward) {
-			transform.LookAt(position + spline.GetDirection(progress));
+			Vector3 p = spline.GetDirection(progress);
+			float rot_z = Mathf.Atan2(p.y, p.x)* Mathf.Rad2Deg;
+			transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 		}
 	}
 }
