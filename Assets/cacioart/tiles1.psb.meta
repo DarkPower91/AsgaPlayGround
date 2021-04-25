@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: scuroveg9
+  - name: scuroveg9b
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 4
       width: 768
       height: 768
-    spriteID: d78c47bcf0dd64dd38d35db7e16c96f9
+    spriteID: b1003ec4dd58a074cb7c8cc5cbe5e325
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -113,161 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: scuroveg7
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1556
-      width: 768
-      height: 768
-    spriteID: 5917915316fa74aa8bf73e62ccd1e4c7
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 1556}
-  - name: scuroveg6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2332
-      width: 768
-      height: 768
-    spriteID: 318a041b55785446c896b15938df6649
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 2332}
-  - name: scuroveg5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 3108
-      width: 768
-      height: 768
-    spriteID: a90cb8540f69a4c04804c0372854a784
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 3108}
-  - name: scuroveg4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 4
-      width: 768
-      height: 768
-    spriteID: 93a7d114398ba439896cd9bcbee14a31
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 4}
-  - name: scuroveg3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 780
-      width: 768
-      height: 768
-    spriteID: e9b18d4fad5354dc59d854344a800638
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 780}
-  - name: scuroveg2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 1556
-      width: 768
-      height: 768
-    spriteID: 717aac9b244bb44d39765651df778993
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 1556}
-  - name: scuroveg1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 2332
-      width: 768
-      height: 768
-    spriteID: c2eba6f58a6d6497293496d0ed12bf31
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 2332}
-  - name: scuroveg8
+  - name: scuroveg9
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -278,7 +124,7 @@ ScriptedImporter:
       y: 780
       width: 768
       height: 768
-    spriteID: 077768859fe903a4192e7bc395a80e10
+    spriteID: 6f5ec739e4bc66348a1fec42877530a2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -289,88 +135,474 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 780}
+  - name: scuroveg8b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1556
+      width: 768
+      height: 768
+    spriteID: 19fc04a3fb3c23d4194249565c7be46b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1556}
+  - name: scuroveg8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2332
+      width: 768
+      height: 768
+    spriteID: 2ca4218ff0b7082419ad585bc8a39c8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2332}
+  - name: scuroveg7b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3108
+      width: 768
+      height: 768
+    spriteID: ba1310afe6d8f154ebbe7a93d0f4e8cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 3108}
+  - name: scuroveg7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 4
+      width: 768
+      height: 768
+    spriteID: 4801222ace2ba754787e89cffd14544f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 4}
+  - name: scuroveg6b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2332
+      y: 780
+      width: 768
+      height: 767
+    spriteID: 02fad1e6fb455a341ab57e7e2394f2e1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2332, y: 780}
+  - name: scuroveg6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 780
+      width: 768
+      height: 768
+    spriteID: c73348a2955b23b4b8a52dc9a459dc42
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 780}
+  - name: scuroveg5b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 1556
+      width: 768
+      height: 768
+    spriteID: b002e6cb58e455541954c253b08c5d37
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 1556}
+  - name: scuroveg5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 2332
+      width: 768
+      height: 768
+    spriteID: 82dadafed3016b647a813d462eb4f1c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 2332}
+  - name: scuroveg4b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 3108
+      width: 768
+      height: 768
+    spriteID: f19fe4a93458c514e980205fb29b6f8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 780, y: 3108}
+  - name: scuroveg4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 4
+      width: 768
+      height: 768
+    spriteID: ec1c564b35cf5404a88459078ec06ced
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 4}
+  - name: scuroveg3b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 780
+      width: 768
+      height: 768
+    spriteID: 6b0ef8293aba77e4c92a46bd9ed9379c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 780}
+  - name: scuroveg3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 1556
+      width: 768
+      height: 768
+    spriteID: f55c1b676b10ca548a173a50b0958e4a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 1556}
+  - name: scuroveg2b
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 2332
+      width: 768
+      height: 768
+    spriteID: 49b3fd1f440f12644907dd318390c800
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 2332}
+  - name: scuroveg2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 3108
+      width: 768
+      height: 768
+    spriteID: 1bb4758983ce23842b32feb26441d84f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1556, y: 3108}
+  - name: scuroveg1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2332
+      y: 4
+      width: 768
+      height: 768
+    spriteID: c2398a8526080a949938688c02d75d83
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2332, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
+  importedTextureWidth: 2048
   importedTextureHeight: 2048
   documentSize: {x: 768, y: 768}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
+  textureActualWidth: 4096
   textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: scuroveg9b
+    spriteName: scuroveg9b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b1003ec4dd58a074cb7c8cc5cbe5e325
+    layerID: 19
+    mosaicPosition: {x: 4, y: 4}
   - name: scuroveg9
     spriteName: scuroveg9
     isGroup: 0
     parentIndex: -1
-    spriteID: d78c47bcf0dd64dd38d35db7e16c96f9
+    spriteID: 6f5ec739e4bc66348a1fec42877530a2
     layerID: 9
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 780}
+  - name: scuroveg8b
+    spriteName: scuroveg8b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 19fc04a3fb3c23d4194249565c7be46b
+    layerID: 18
+    mosaicPosition: {x: 4, y: 1556}
   - name: scuroveg8
     spriteName: scuroveg8
     isGroup: 0
     parentIndex: -1
-    spriteID: 077768859fe903a4192e7bc395a80e10
+    spriteID: 2ca4218ff0b7082419ad585bc8a39c8b
     layerID: 10
-    mosaicPosition: {x: 4, y: 780}
+    mosaicPosition: {x: 4, y: 2332}
+  - name: scuroveg7b
+    spriteName: scuroveg7b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba1310afe6d8f154ebbe7a93d0f4e8cd
+    layerID: 17
+    mosaicPosition: {x: 4, y: 3108}
   - name: scuroveg7
     spriteName: scuroveg7
     isGroup: 0
     parentIndex: -1
-    spriteID: 5917915316fa74aa8bf73e62ccd1e4c7
+    spriteID: 4801222ace2ba754787e89cffd14544f
     layerID: 8
-    mosaicPosition: {x: 4, y: 1556}
+    mosaicPosition: {x: 780, y: 4}
+  - name: scuroveg6b
+    spriteName: scuroveg6b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 02fad1e6fb455a341ab57e7e2394f2e1
+    layerID: 16
+    mosaicPosition: {x: 2332, y: 780}
   - name: scuroveg6
     spriteName: scuroveg6
     isGroup: 0
     parentIndex: -1
-    spriteID: 318a041b55785446c896b15938df6649
+    spriteID: c73348a2955b23b4b8a52dc9a459dc42
     layerID: 7
-    mosaicPosition: {x: 4, y: 2332}
+    mosaicPosition: {x: 780, y: 780}
+  - name: scuroveg5b
+    spriteName: scuroveg5b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b002e6cb58e455541954c253b08c5d37
+    layerID: 14
+    mosaicPosition: {x: 780, y: 1556}
   - name: scuroveg5
     spriteName: scuroveg5
     isGroup: 0
     parentIndex: -1
-    spriteID: a90cb8540f69a4c04804c0372854a784
+    spriteID: 82dadafed3016b647a813d462eb4f1c8
     layerID: 5
-    mosaicPosition: {x: 4, y: 3108}
+    mosaicPosition: {x: 780, y: 2332}
+  - name: scuroveg4b
+    spriteName: scuroveg4b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f19fe4a93458c514e980205fb29b6f8b
+    layerID: 13
+    mosaicPosition: {x: 780, y: 3108}
   - name: scuroveg4
     spriteName: scuroveg4
     isGroup: 0
     parentIndex: -1
-    spriteID: 93a7d114398ba439896cd9bcbee14a31
+    spriteID: ec1c564b35cf5404a88459078ec06ced
     layerID: 6
-    mosaicPosition: {x: 780, y: 4}
+    mosaicPosition: {x: 1556, y: 4}
+  - name: scuroveg3b
+    spriteName: scuroveg3b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6b0ef8293aba77e4c92a46bd9ed9379c
+    layerID: 12
+    mosaicPosition: {x: 1556, y: 780}
   - name: scuroveg3
     spriteName: scuroveg3
     isGroup: 0
     parentIndex: -1
-    spriteID: e9b18d4fad5354dc59d854344a800638
+    spriteID: f55c1b676b10ca548a173a50b0958e4a
     layerID: 4
-    mosaicPosition: {x: 780, y: 780}
+    mosaicPosition: {x: 1556, y: 1556}
+  - name: scuroveg2b
+    spriteName: scuroveg2b
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49b3fd1f440f12644907dd318390c800
+    layerID: 11
+    mosaicPosition: {x: 1556, y: 2332}
   - name: scuroveg2
     spriteName: scuroveg2
     isGroup: 0
     parentIndex: -1
-    spriteID: 717aac9b244bb44d39765651df778993
+    spriteID: 1bb4758983ce23842b32feb26441d84f
     layerID: 3
-    mosaicPosition: {x: 780, y: 1556}
+    mosaicPosition: {x: 1556, y: 3108}
   - name: scuroveg1
     spriteName: scuroveg1
     isGroup: 0
     parentIndex: -1
-    spriteID: c2eba6f58a6d6497293496d0ed12bf31
+    spriteID: c2398a8526080a949938688c02d75d83
     layerID: 2
-    mosaicPosition: {x: 780, y: 2332}
+    mosaicPosition: {x: 2332, y: 4}
   characterData:
     bones: []
     parts: []
