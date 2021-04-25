@@ -13,19 +13,19 @@ public class ManagersLoader : MonoBehaviour
 
     private void Start()
     {
-        if (!GameObject.FindGameObjectWithTag("SaveData"))
+        if (!GameObject.FindGameObjectWithTag("SaveData") && m_SaveDataRepository != null)
         {
             GameObject saveData = Instantiate(m_SaveDataRepository, transform.position, Quaternion.identity);
             DontDestroyOnLoad(saveData);
         }
 
-        if (!GameObject.FindGameObjectWithTag("MusicManager"))
+        if (!GameObject.FindGameObjectWithTag("MusicManager") && m_MusicManager != null)
         {
             GameObject musicManager = Instantiate(m_MusicManager, transform.position, Quaternion.identity);
             DontDestroyOnLoad(musicManager);
         }
 
-        if (!GameObject.FindGameObjectWithTag("FlowManager"))
+        if (!GameObject.FindGameObjectWithTag("FlowManager") && m_FlowManager != null)
         {
             GameObject flowManager = Instantiate(m_FlowManager, transform.position, Quaternion.identity);
             DontDestroyOnLoad(flowManager);
