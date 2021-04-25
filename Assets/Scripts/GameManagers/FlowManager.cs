@@ -30,8 +30,9 @@ public class FlowManager : MonoBehaviour
     }
 
     public static void SetFlowState(GameState state)
-    {
+    {    
         m_CurrentState = state;
+        Debug.Log("Changed state to " + state);
 
         switch (m_CurrentState)
         {
