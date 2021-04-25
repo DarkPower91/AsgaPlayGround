@@ -82,7 +82,9 @@ public class AudioManager : MonoBehaviour
     public void MuteAudio(bool wantToMute)
     {
         isMuted = wantToMute;
-        AudioListener.volume = wantToMute ? 0.0f : 1.0f;
+        float result_of_choice = wantToMute ? 0.0f : 1.0f;
+        AudioListener.volume = result_of_choice;
+        //Debug.Log(result_of_choice);
     }
     
     public bool IsMuted()
