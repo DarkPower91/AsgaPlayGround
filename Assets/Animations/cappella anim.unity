@@ -243,11 +243,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1693383953257444588, guid: 43f45ca310196fa4ea243175c1de6501, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.51
+      value: 2.27
       objectReference: {fileID: 0}
     - target: {fileID: -1693383953257444588, guid: 43f45ca310196fa4ea243175c1de6501, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 1.31
       objectReference: {fileID: 0}
     - target: {fileID: -1693383953257444588, guid: 43f45ca310196fa4ea243175c1de6501, type: 3}
       propertyPath: m_LocalPosition.z
@@ -287,6 +287,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -1677508603315802978, guid: 43f45ca310196fa4ea243175c1de6501, type: 3}
+--- !u!1001 &2068414247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4794870172199528662, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1189296012991095243, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+      propertyPath: m_Name
+      value: mostro_corpo_def
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 2155079681126888202, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+--- !u!1 &2068414248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1189296012991095243, guid: 0e2aa00f31a293d448ebddbd5310341f, type: 3}
+  m_PrefabInstance: {fileID: 2068414247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2068414249
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068414248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52aae9880993c8f47bea708c8f34c286, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2123519102
 PrefabInstance:
   m_ObjectHideFlags: 0
