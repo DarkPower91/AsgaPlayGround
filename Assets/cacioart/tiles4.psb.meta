@@ -32,7 +32,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 768
+    spritePixelsToUnits: 758
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -117,11 +117,11 @@ ScriptedImporter:
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 1, y: 1, z: 1, w: 1}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2332
+      x: 1
+      y: 2338
       width: 768
       height: 768
     spriteID: d204537f21492644d9cc7afd904dcce3
@@ -555,8 +555,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: -62}
   - name: scurorock10bdx
     originalName: 
-    pivot: {x: 0, y: 0.5}
-    alignment: 4
+    pivot: {x: 0.6, y: 0.5}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -808,6 +808,39 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
     overridden: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
