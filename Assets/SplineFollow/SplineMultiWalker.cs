@@ -37,6 +37,8 @@ public class SplineMultiWalker : MonoBehaviour
 			return;
 		}
 
+		if (FlowManager.GetGameState() != GameState.InGame) return;
+
 		_previousPosition = transform.position;
 		_previousRotation = transform.rotation;
 
