@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: edd06046772182242a7556d6ef26bb03
+guid: f43b553bcbb01f443ba524260d808bdb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 1092
       width: 1920
       height: 657
-    spriteID: 6e5b1f88f72b1d9448299ba5867cae5b
+    spriteID: 9da2072f06d29d5408c71bf0336d490d
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -124,7 +124,7 @@ ScriptedImporter:
       y: 1757
       width: 1920
       height: 407
-    spriteID: 70207b8ea4b20d34e84f3a70cb165a49
+    spriteID: e21452a9d6a572343bd322789a7e3e29
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 4
       width: 1920
       height: 1080
-    spriteID: 7719591f9209c7241938a2471281044b
+    spriteID: 24fec92115fcb894482050bf67ae2970
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -180,21 +180,21 @@ ScriptedImporter:
     spriteName: cloudsup
     isGroup: 0
     parentIndex: -1
-    spriteID: 6e5b1f88f72b1d9448299ba5867cae5b
+    spriteID: 9da2072f06d29d5408c71bf0336d490d
     layerID: 10
     mosaicPosition: {x: 4, y: 1092}
   - name: cloudsdown
     spriteName: cloudsdown
     isGroup: 0
     parentIndex: -1
-    spriteID: 70207b8ea4b20d34e84f3a70cb165a49
+    spriteID: e21452a9d6a572343bd322789a7e3e29
     layerID: 12
     mosaicPosition: {x: 4, y: 1757}
   - name: skyandsea
     spriteName: skyandsea
     isGroup: 0
     parentIndex: -1
-    spriteID: 7719591f9209c7241938a2471281044b
+    spriteID: 24fec92115fcb894482050bf67ae2970
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
   characterData:
