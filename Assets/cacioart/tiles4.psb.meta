@@ -445,8 +445,8 @@ ScriptedImporter:
     uvTransform: {x: 780, y: 3108}
   - name: scurorock10b
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 1, y: 0.5}
+    alignment: 5
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -467,8 +467,8 @@ ScriptedImporter:
     uvTransform: {x: 1490, y: 2200}
   - name: scurorock10
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 1, y: 0.5}
+    alignment: 5
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -511,8 +511,8 @@ ScriptedImporter:
     uvTransform: {x: 1281, y: 7149}
   - name: scurorock9
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 1, y: 0.5}
+    alignment: 5
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -533,8 +533,8 @@ ScriptedImporter:
     uvTransform: {x: 1452, y: 5096}
   - name: scurorock10bgiu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 1}
+    alignment: 2
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -555,8 +555,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: -62}
   - name: scurorock10bdx
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0, y: 0.5}
+    alignment: 4
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -577,8 +577,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 714}
   - name: scurorock10bsu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -599,8 +599,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 1490}
   - name: scurorock10giu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 1}
+    alignment: 2
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -621,8 +621,8 @@ ScriptedImporter:
     uvTransform: {x: 780, y: 4624}
   - name: scurorock10dx
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0, y: 0.5}
+    alignment: 4
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 780, y: 5400}
   - name: scurorock10su
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -665,8 +665,8 @@ ScriptedImporter:
     uvTransform: {x: 780, y: 6176}
   - name: scurorock9bgiu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 1}
+    alignment: 2
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -687,8 +687,8 @@ ScriptedImporter:
     uvTransform: {x: 780, y: 7417}
   - name: scurorock9bdx
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0, y: 0.5}
+    alignment: 4
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -709,8 +709,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 5872}
   - name: scurorock9bsu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -731,8 +731,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 6648}
   - name: scurorock9giu
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -753,8 +753,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 2872}
   - name: scurorock9dx
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0, y: 0.5}
+    alignment: 4
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -775,8 +775,8 @@ ScriptedImporter:
     uvTransform: {x: 1556, y: 3648}
   - name: scurorock9su
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
