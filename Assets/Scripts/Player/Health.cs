@@ -29,7 +29,16 @@ public class Health : MonoBehaviour
     {
         health_bar = Mathf.Clamp(health_bar + added_health, 0, _max_health);
         //Debug.Log("Invoking health change event with new health " + health_bar);
-        GameplayEvents.OnHealthChange(health_bar);
+        if (health_bar <= 0f) // trigger death event
+        {
+            Debug.Log("Dora died");
+            GameplayEvents.OnHealthChange(0.0001f);
+            GameplayEvents.OnDeath();
+        } else 
+        {
+            GameplayEvents.OnHealthChange(health_bar);
+        }
+        
     }
 
     public float max_health 

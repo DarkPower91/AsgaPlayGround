@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae5f2fac6d1938741a878df067d3a56a
+guid: 19617b9379bd8704da515a8946db67b9
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -91,7 +91,51 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: corpo1
+  - name: cloudsup
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 662
+    spriteID: 336eaae36e5fd64469300ccda5a20fd7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 674}
+  - name: cloudsdown
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1762
+      width: 1920
+      height: 415
+    spriteID: dd7a42e9094f0284e9c3534772d679e0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1762}
+  - name: skyandsea
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -100,9 +144,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 827
-      height: 795
-    spriteID: 1b383ca094a38754c86d3b89878c4254
+      width: 1920
+      height: 1080
+    spriteID: 6dd0b8ddbc4ccf349be06ff79acd4124
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,51 +156,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -350, y: -680}
-  - name: corpo_inf
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 807
-      width: 474
-      height: 542
-    spriteID: 666b1081d7d2fb649b8e19ddc87c9b91
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -479, y: 511}
-  - name: corpo_sup
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1357
-      width: 474
-      height: 542
-    spriteID: 0ba826fdf26c9274e8406d1bd9f68fd4
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -477, y: 10}
+    uvTransform: {x: 4, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -164,46 +164,46 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 1024
   importedTextureHeight: 2048
-  documentSize: {x: 2000, y: 2000}
+  documentSize: {x: 1920, y: 1080}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 2048
+  textureActualWidth: 2048
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: corpo1
-    spriteName: corpo1
+  - name: cloudsup
+    spriteName: cloudsup
     isGroup: 0
     parentIndex: -1
-    spriteID: 1b383ca094a38754c86d3b89878c4254
-    layerID: 0
+    spriteID: 336eaae36e5fd64469300ccda5a20fd7
+    layerID: 10
+    mosaicPosition: {x: 4, y: 1092}
+  - name: cloudsdown
+    spriteName: cloudsdown
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dd7a42e9094f0284e9c3534772d679e0
+    layerID: 12
+    mosaicPosition: {x: 4, y: 1762}
+  - name: skyandsea
+    spriteName: skyandsea
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6dd0b8ddbc4ccf349be06ff79acd4124
+    layerID: 5
     mosaicPosition: {x: 4, y: 4}
-  - name: corpo_inf
-    spriteName: corpo_inf
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 666b1081d7d2fb649b8e19ddc87c9b91
-    layerID: -1386860821
-    mosaicPosition: {x: 4, y: 807}
-  - name: corpo_sup
-    spriteName: corpo_sup
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0ba826fdf26c9274e8406d1bd9f68fd4
-    layerID: -2146375896
-    mosaicPosition: {x: 4, y: 1357}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: mostro_corpo_def Texture
-  prefabAssetName: mostro_corpo_def Prefab
-  spriteLibAssetName: mostro_corpo_def Sprite Lib
+  textureAssetName: schermatainiziale Texture
+  prefabAssetName: schermatainiziale Prefab
+  spriteLibAssetName: schermatainiziale Sprite Lib
   secondarySpriteTextures: []

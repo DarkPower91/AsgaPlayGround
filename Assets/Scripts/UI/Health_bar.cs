@@ -20,6 +20,8 @@ public class Health_bar : MonoBehaviour
         _player_health = FindObjectOfType<Health>();
         // Register events
         GameplayEvents.HealthChange.AddListener(ChangeSliderOnHealthChange);
+        GameplayEvents.DorasDeath.AddListener(ChangeSliderOnDeath);
+        //GameplayEvents.OnDeath += ChangeSliderOnDeath;
         FlowManager.OnGameStateChanged += CheckHealthBarOnGameChange;
     }
     
@@ -71,5 +73,11 @@ public class Health_bar : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    private void ChangeSliderOnDeath() 
+    {
+        Debug.Log("Dora died... removing Health bar.");
+        ChangeSliderVisibility(false);
     }
 }
