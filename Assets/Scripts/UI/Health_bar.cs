@@ -9,7 +9,7 @@ public class Health_bar : MonoBehaviour
     #region private objects
     private CharacterMovements _mover;
     private float dora_health = 100f;
-    private Slider health_slider;
+    private Slider health_slider = null;
     private Health _player_health;
     #endregion
     
@@ -20,6 +20,7 @@ public class Health_bar : MonoBehaviour
         _player_health = FindObjectOfType<Health>();
         // Register events
         GameplayEvents.HealthChange.AddListener(ChangeSliderOnHealthChange);
+        FlowManager.OnGameStateChanged += CheckHealthBarOnGameChange;
     }
     
     private void ChangeSliderOnHealthChange(float new_health) 
@@ -38,5 +39,37 @@ public class Health_bar : MonoBehaviour
             gameObject.active = false;
             //Destroy(gameObject);
         } */
+    }
+
+    private void ChangeSliderVisibility(bool isVisible)
+    {
+        if (health_slider != null) 
+        {
+            health_slider.gameObject.SetActive(isVisible);
+        }
+    }
+
+    private void CheckHealthBarOnGameChange(GameState new_gamestate)
+    {
+        //Debug.Log("New game state: " + new_gamestate);
+        switch (new_gamestate)
+        {
+            case GameState.InGame:
+                {
+                    ChangeSliderVisibility(true);
+                    break;
+                }
+            case GameState.MainMenu:
+            case GameState.InCredits:
+            case GameState.GameOver:
+            case GameState.InPause:
+            case GameState.InDex:
+                {
+                    ChangeSliderVisibility(false);
+                    break;
+                }
+            default:
+                break;
+        }
     }
 }
