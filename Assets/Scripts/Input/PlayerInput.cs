@@ -23,8 +23,7 @@ public class PlayerInput : MonoBehaviour
     {
         ClearInput();
 
-        //FLOW MANAGER CHECK IF GAME OVER
-        //RETURN;
+        if (FlowManager.GetGameState() != GameState.InGame) return;
 
         ProcessInputs();
 

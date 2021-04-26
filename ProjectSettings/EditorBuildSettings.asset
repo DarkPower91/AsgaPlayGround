@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Playground/BROKEN.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/FinalGame.unity
+    guid: c930af170978748d7920107b0537a975
   m_configObjects: {}

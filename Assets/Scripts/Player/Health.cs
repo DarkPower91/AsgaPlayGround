@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -34,7 +35,9 @@ public class Health : MonoBehaviour
             Debug.Log("Dora died");
             GameplayEvents.OnHealthChange(0.0001f);
             GameplayEvents.OnDeath();
-        } else 
+            SceneManager.LoadScene(0);
+        }
+        else 
         {
             GameplayEvents.OnHealthChange(health_bar);
         }
