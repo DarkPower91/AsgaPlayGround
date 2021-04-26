@@ -89,21 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1011908718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2845177292965712463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2936c532579649808eb6bb86ab14463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joystick: {fileID: 0}
-  reachTime: 3
-  displacement: 0.2
 --- !u!95 &347403896570719938
 Animator:
   serializedVersion: 3
@@ -123,6 +108,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1011908718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845177292965712463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2936c532579649808eb6bb86ab14463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
+  reachTime: 3
+  displacement: 0.2
 --- !u!114 &2078552376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,6 +157,7 @@ GameObject:
   - component: {fileID: 7552781454330036682}
   - component: {fileID: 1504847351}
   - component: {fileID: 2101262911}
+  - component: {fileID: 920183609}
   m_Layer: 0
   m_Name: Dora
   m_TagString: Player
@@ -271,9 +272,9 @@ MonoBehaviour:
   strenght_break: 0.8
   joystick: {fileID: 0}
   isForceMode: 1
-  duration_break: 5
-  duration_jump: 5
-  gravity_factor: 0
+  duration_break: 3
+  duration_jump: 3
+  gravity_factor: 0.05
 --- !u!114 &7552781454330036682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +326,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health_bar: 100
   _max_health: 200
+--- !u!114 &920183609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618703951887971166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b4e3fa109c4492694015e9e0f434bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HiddenInFlowStates: 01000000
+--- !u!114 &1622999003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644495254874738133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b4e3fa109c4492694015e9e0f434bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HiddenInFlowStates: 000000000100000005000000
 --- !u!1001 &1254432335185207266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,6 +417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 8782127086039387966, guid: 5655369e138c07e4d80665e077977682, type: 3}
+--- !u!1 &3644495254874738133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2592800769260229175, guid: 5655369e138c07e4d80665e077977682, type: 3}
+  m_PrefabInstance: {fileID: 1254432335185207266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4929745236379069326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6125276733495456876, guid: 5655369e138c07e4d80665e077977682, type: 3}
