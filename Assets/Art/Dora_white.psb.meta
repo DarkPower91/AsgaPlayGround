@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 1785
       width: 350
       height: 138
-    spriteID: 40d9cf1a82bc48f429c6b715c0884366
+    spriteID: e3c713f2d9ce12449926e0b242376ce5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -124,7 +124,7 @@ ScriptedImporter:
       y: 1105
       width: 631
       height: 672
-    spriteID: 2a8c8992c917a0e4a9fafaea02784602
+    spriteID: 83b9f6630f1801a499b9444f451de9f0
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 1785
       width: 136
       height: 231
-    spriteID: aa212f6fd41931d449227eb560b396c6
+    spriteID: af345e17f5ddda94a93fc5efee9c2000
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -168,7 +168,7 @@ ScriptedImporter:
       y: 1785
       width: 136
       height: 231
-    spriteID: 8243cad4797c290469028fbf9463e6c2
+    spriteID: d5a5ae0dbe141104cbfde9ed29d0ae54
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 1105
       width: 717
       height: 707
-    spriteID: 746288317195a404d8d7da465d737dde
+    spriteID: 666cca68db9b4db49a9d748e7e20aad7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 4
       width: 678
       height: 1093
-    spriteID: 2d688e7772271314691e229c8f2b624b
+    spriteID: 2e9e710c50b061347951f626008cea1e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -234,7 +234,7 @@ ScriptedImporter:
       y: 4
       width: 678
       height: 1093
-    spriteID: 83cce1dc2a4545c4390bcf60c3c06854
+    spriteID: 6fdf0e6a89b46b245b2cc53cd0062bee
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -268,49 +268,49 @@ ScriptedImporter:
     spriteName: volto
     isGroup: 0
     parentIndex: -1
-    spriteID: 40d9cf1a82bc48f429c6b715c0884366
+    spriteID: e3c713f2d9ce12449926e0b242376ce5
     layerID: 0
     mosaicPosition: {x: 4, y: 1785}
   - name: corpo
     spriteName: corpo
     isGroup: 0
     parentIndex: -1
-    spriteID: 2a8c8992c917a0e4a9fafaea02784602
+    spriteID: 83b9f6630f1801a499b9444f451de9f0
     layerID: 1648854589
     mosaicPosition: {x: 4, y: 1105}
   - name: gamba dx
     spriteName: gamba dx
     isGroup: 0
     parentIndex: -1
-    spriteID: aa212f6fd41931d449227eb560b396c6
+    spriteID: af345e17f5ddda94a93fc5efee9c2000
     layerID: 1945757376
     mosaicPosition: {x: 362, y: 1785}
   - name: gamba sx
     spriteName: gamba sx
     isGroup: 0
     parentIndex: -1
-    spriteID: 8243cad4797c290469028fbf9463e6c2
+    spriteID: d5a5ae0dbe141104cbfde9ed29d0ae54
     layerID: 1945757395
     mosaicPosition: {x: 506, y: 1785}
   - name: testa
     spriteName: testa
     isGroup: 0
     parentIndex: -1
-    spriteID: 746288317195a404d8d7da465d737dde
+    spriteID: 666cca68db9b4db49a9d748e7e20aad7
     layerID: -683646041
     mosaicPosition: {x: 690, y: 1105}
   - name: coda sx
     spriteName: coda sx
     isGroup: 0
     parentIndex: -1
-    spriteID: 2d688e7772271314691e229c8f2b624b
+    spriteID: 2e9e710c50b061347951f626008cea1e
     layerID: 1064314834
     mosaicPosition: {x: 4, y: 4}
   - name: coda dx
     spriteName: coda dx
     isGroup: 0
     parentIndex: -1
-    spriteID: 83cce1dc2a4545c4390bcf60c3c06854
+    spriteID: 6fdf0e6a89b46b245b2cc53cd0062bee
     layerID: -145538747
     mosaicPosition: {x: 690, y: 4}
   characterData:
