@@ -21,10 +21,11 @@ public class SplineMultiWalker : MonoBehaviour
 
 	public List<GameObject> others = new List<GameObject>();
 	public float distance = 0.0f;
+	public bool followPlayer = false;
 
 	private void Start()
 	{
-		player = GameObject.FindGameObjectWithTag("Player");
+		player = followPlayer ? GameObject.FindGameObjectWithTag("Player") : null;
 		_previousPosition = transform.position;
 		_previousRotation = transform.rotation;
 	}
