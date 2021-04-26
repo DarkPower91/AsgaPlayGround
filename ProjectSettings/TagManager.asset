@@ -42,9 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Tilemaps
-    uniqueID: 2240414919
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tilemaps
+    uniqueID: 2240414919
     locked: 0

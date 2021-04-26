@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 817c87806a426b44bbba61991d80a42c
+guid: 5199b44185173714999508d0686a243a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 4
       width: 679
       height: 1305
-    spriteID: 229f5d2d982a07446a5a53ca9b445811
+    spriteID: 4b40d7c5c8ae7774aa1353541eb0b43d
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -124,7 +124,7 @@ ScriptedImporter:
       y: 2752
       width: 720
       height: 1236
-    spriteID: 66d93a4140d3d9b4ba123882527cf239
+    spriteID: 613bc34d199f7c34b8047674521097b9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 3996
       width: 189
       height: 81
-    spriteID: b056e684b3905fe40a426585a2dfe006
+    spriteID: e1dc5cdae0e1ba242b4d5981265f66f6
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -168,7 +168,7 @@ ScriptedImporter:
       y: 1317
       width: 696
       height: 1085
-    spriteID: 0e92ee84f2fbb1d499637c37c47b5052
+    spriteID: fc7186edf671e784eb3ca9b6503e92fc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 4
       width: 321
       height: 195
-    spriteID: 17fbea410d21ab345a7bc61a877d77d8
+    spriteID: dd8dc226f4634374e8737a6dbfd58b50
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 3996
       width: 219
       height: 64
-    spriteID: 05275a0c6d5aa564aba9aa8dca7ffea6
+    spriteID: 517ad5bbdd3d9d64aa8e151d6d3aee7e
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -234,7 +234,7 @@ ScriptedImporter:
       y: 3996
       width: 284
       height: 79
-    spriteID: 69ae137bc50da2d43822becf0db1df3c
+    spriteID: 7642e92df2595c54bb024d7b2c3e6922
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -256,7 +256,7 @@ ScriptedImporter:
       y: 4
       width: 768
       height: 1366
-    spriteID: 868244b676f6cb741b02477307e06074
+    spriteID: 3f956b22e95535a4ca368da1ad7385ee
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -278,7 +278,7 @@ ScriptedImporter:
       y: 1378
       width: 768
       height: 1366
-    spriteID: a29fd56a4a4fbcf4183e1ed66aee43be
+    spriteID: b5636a6db3ec4df469bf5e38618ba8a3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -312,63 +312,63 @@ ScriptedImporter:
     spriteName: bolle2
     isGroup: 0
     parentIndex: -1
-    spriteID: 229f5d2d982a07446a5a53ca9b445811
+    spriteID: 4b40d7c5c8ae7774aa1353541eb0b43d
     layerID: 5
     mosaicPosition: {x: 780, y: 4}
   - name: bolle1
     spriteName: bolle1
     isGroup: 0
     parentIndex: -1
-    spriteID: 66d93a4140d3d9b4ba123882527cf239
+    spriteID: 613bc34d199f7c34b8047674521097b9
     layerID: 4
     mosaicPosition: {x: 4, y: 2752}
   - name: Livello 6
     spriteName: Livello 6
     isGroup: 0
     parentIndex: -1
-    spriteID: b056e684b3905fe40a426585a2dfe006
+    spriteID: e1dc5cdae0e1ba242b4d5981265f66f6
     layerID: 13
     mosaicPosition: {x: 296, y: 3996}
   - name: Livello 2
     spriteName: Livello 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 0e92ee84f2fbb1d499637c37c47b5052
+    spriteID: fc7186edf671e784eb3ca9b6503e92fc
     layerID: 7
     mosaicPosition: {x: 780, y: 1317}
   - name: Livello 5
     spriteName: Livello 5
     isGroup: 0
     parentIndex: -1
-    spriteID: 17fbea410d21ab345a7bc61a877d77d8
+    spriteID: dd8dc226f4634374e8737a6dbfd58b50
     layerID: 11
     mosaicPosition: {x: 1467, y: 4}
   - name: Livello 4
     spriteName: Livello 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 05275a0c6d5aa564aba9aa8dca7ffea6
+    spriteID: 517ad5bbdd3d9d64aa8e151d6d3aee7e
     layerID: 10
     mosaicPosition: {x: 493, y: 3996}
   - name: Livello 3
     spriteName: Livello 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 69ae137bc50da2d43822becf0db1df3c
+    spriteID: 7642e92df2595c54bb024d7b2c3e6922
     layerID: 9
     mosaicPosition: {x: 4, y: 3996}
   - name: variazioni sfondo
     spriteName: variazioni sfondo
     isGroup: 0
     parentIndex: -1
-    spriteID: 868244b676f6cb741b02477307e06074
+    spriteID: 3f956b22e95535a4ca368da1ad7385ee
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
   - name: sfondo
     spriteName: sfondo
     isGroup: 0
     parentIndex: -1
-    spriteID: a29fd56a4a4fbcf4183e1ed66aee43be
+    spriteID: b5636a6db3ec4df469bf5e38618ba8a3
     layerID: 2
     mosaicPosition: {x: 4, y: 1378}
   characterData:
