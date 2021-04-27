@@ -42,9 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Dora
+    uniqueID: 3128942401
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Tilemaps
+  - name: TilemapsTop
     uniqueID: 2240414919
+    locked: 0
+  - name: TilemapsBottom
+    uniqueID: 1814035657
     locked: 0

@@ -32,6 +32,8 @@ public class SplineMultiWalker : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		if (spline == null) return;
+
 		if (player != null && Vector2.Distance(player.transform.position, transform.position) > maxDistance)
 		{
 			return;

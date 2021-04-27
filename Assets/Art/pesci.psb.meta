@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06aa562f1cdf51240b80c316d604ec8f
+guid: fd040aca74f2b4f848c62b7368a905a2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -21,7 +21,7 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    isReadable: 1
+    isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
@@ -91,7 +91,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: biolumin4
+  - name: Livello 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -100,9 +100,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 768
-      height: 768
-    spriteID: 7d970435711d18e4bac4fa6b247ea7e7
+      width: 1753
+      height: 1195
+    spriteID: fc5be519b0bbe436aa65f3a203e145cc
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -112,73 +112,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-  - name: biolumin3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 780
-      width: 768
-      height: 768
-    spriteID: dd4b9826745ab60459d22e6142e96a18
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 780}
-  - name: biolumin2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 4
-      width: 768
-      height: 768
-    spriteID: f685b3cdbcbab454b89e20d99d5ded43
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 4}
-  - name: biolumin1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: 780
-      width: 768
-      height: 768
-    spriteID: 2037c35b0497ccb47bedf4c5b18730f1
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 780, y: 780}
+    uvTransform: {x: -110, y: -527}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -186,7 +120,7 @@ ScriptedImporter:
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048
-  documentSize: {x: 768, y: 768}
+  documentSize: {x: 2000, y: 2000}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -198,41 +132,20 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: biolumin4
-    spriteName: biolumin4
+  - name: Livello 2
+    spriteName: Livello 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 7d970435711d18e4bac4fa6b247ea7e7
-    layerID: 6
+    spriteID: fc5be519b0bbe436aa65f3a203e145cc
+    layerID: 0
     mosaicPosition: {x: 4, y: 4}
-  - name: biolumin3
-    spriteName: biolumin3
-    isGroup: 0
-    parentIndex: -1
-    spriteID: dd4b9826745ab60459d22e6142e96a18
-    layerID: 5
-    mosaicPosition: {x: 4, y: 780}
-  - name: biolumin2
-    spriteName: biolumin2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f685b3cdbcbab454b89e20d99d5ded43
-    layerID: 4
-    mosaicPosition: {x: 780, y: 4}
-  - name: biolumin1
-    spriteName: biolumin1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2037c35b0497ccb47bedf4c5b18730f1
-    layerID: 2
-    mosaicPosition: {x: 780, y: 780}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: biolumin Texture
-  prefabAssetName: biolumin Prefab
-  spriteLibAssetName: biolumin Sprite Lib
+  textureAssetName: pesci Texture
+  prefabAssetName: pesci Prefab
+  spriteLibAssetName: pesci Sprite Lib
   secondarySpriteTextures: []
