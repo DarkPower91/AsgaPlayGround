@@ -15,7 +15,6 @@ public class Conigliorboborbo : MonoBehaviour
         Health playerHelth = collision.gameObject.GetComponent<Health>();
         if (playerHelth)
         {
-            // Change player health
             playerHelth.ChangeHealth(playerHelth.max_health);
 
             GetComponent<Collider2D>().enabled = false;
