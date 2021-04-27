@@ -43,11 +43,14 @@ public class CharacterMovements : MonoBehaviour
         // Initialize timers
         _Timer_break.Start();
         _Timer_jump.Start();
+        FlowManager.SetFlowState(GameState.MainMenu);
         
     }
 
     private void FixedUpdate() 
     {
+        if (_bolla_component == null || _input == null) return;
+
         // ///////////////////////
         // Normal movement with arrows
         // The physics is 
@@ -127,7 +130,8 @@ public class CharacterMovements : MonoBehaviour
     
     private void SetGravityToValue(float value)
     {
-        _bolla_component.gravityScale = value;
+        if(_bolla_component != null)
+            _bolla_component.gravityScale = value;
     }
 
     private void CheckPhysicsOnGameChange(GameState new_gamestate)
