@@ -1,21 +1,51 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class GivingLifeOrb : MonoBehaviour
 {
+    public float fadeOffSpeed = 1.0f;
+
     #region private Objects
-    private Health _player_health = new Health();
+    private Light2D light = null;
     #endregion
 
-    private void OnCollisionEnter2D(Collision2D collision) 
+    private void OnTriggerEnter2D(Collider2D collision) 
     {
-        // Change player health
-        _player_health.ChangeHealth(_player_health.max_health);
-
-        if (collision.gameObject.tag == "Player") 
+        Health playerHelth = collision.gameObject.GetComponent<Health>();
+        if (playerHelth)
         {
-            Destroy(gameObject, 0.1f);
+            // Change player health
+            playerHelth.ChangeHealth(playerHelth.max_health);
+
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
+            light = GetComponent<Light2D>();
+            StartCoroutine(FadeOff());
+        }
+    }
+
+    private IEnumerator FadeOff()
+    {
+        while (true)
+        {
+            if (light != null)
+            {
+                if (light.intensity <= 0)
+                {
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    light.intensity -= Time.deltaTime * fadeOffSpeed;
+                }
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+
+            yield return null;
         }
     }
 }
