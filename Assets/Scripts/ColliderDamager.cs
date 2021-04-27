@@ -7,7 +7,8 @@ public class ColliderDamager : MonoBehaviour
     #endregion
 
     #region private Objects
-
+    [SerializeField]
+    private float _max_damage = 50f;
     #endregion
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -29,7 +30,8 @@ public class ColliderDamager : MonoBehaviour
         Vector2 _player_velocity = _player_rigid_body.velocity;
         if (_player_velocity != null)
         {
-            float _damage = Damage*_player_velocity.magnitude;
+            float _damage = Mathf.Clamp(Damage * _player_velocity.magnitude, - _max_damage, 0);
+            
             //Debug.Log("Damage! it is with velocity, ad it is " + _damage);
             return _damage; 
         } else
