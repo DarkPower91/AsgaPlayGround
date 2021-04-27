@@ -102,7 +102,7 @@ ScriptedImporter:
       y: 4
       width: 768
       height: 768
-    spriteID: 438294ecd7dd1144c800588689c4ef5a
+    spriteID: 7d970435711d18e4bac4fa6b247ea7e7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -124,7 +124,7 @@ ScriptedImporter:
       y: 780
       width: 768
       height: 768
-    spriteID: 54706997e1c2af146a6817bf1006270f
+    spriteID: dd4b9826745ab60459d22e6142e96a18
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -146,7 +146,7 @@ ScriptedImporter:
       y: 4
       width: 768
       height: 768
-    spriteID: d1082b3594249b045b302e4dc66777c9
+    spriteID: f685b3cdbcbab454b89e20d99d5ded43
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -168,7 +168,7 @@ ScriptedImporter:
       y: 780
       width: 768
       height: 768
-    spriteID: 7f90e9a12e5e25c44bdf98a1355bb847
+    spriteID: 2037c35b0497ccb47bedf4c5b18730f1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -179,29 +179,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 780, y: 780}
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
@@ -224,28 +202,28 @@ ScriptedImporter:
     spriteName: biolumin4
     isGroup: 0
     parentIndex: -1
-    spriteID: 438294ecd7dd1144c800588689c4ef5a
+    spriteID: 7d970435711d18e4bac4fa6b247ea7e7
     layerID: 6
     mosaicPosition: {x: 4, y: 4}
   - name: biolumin3
     spriteName: biolumin3
     isGroup: 0
     parentIndex: -1
-    spriteID: 54706997e1c2af146a6817bf1006270f
+    spriteID: dd4b9826745ab60459d22e6142e96a18
     layerID: 5
     mosaicPosition: {x: 4, y: 780}
   - name: biolumin2
     spriteName: biolumin2
     isGroup: 0
     parentIndex: -1
-    spriteID: d1082b3594249b045b302e4dc66777c9
+    spriteID: f685b3cdbcbab454b89e20d99d5ded43
     layerID: 4
     mosaicPosition: {x: 780, y: 4}
   - name: biolumin1
     spriteName: biolumin1
     isGroup: 0
     parentIndex: -1
-    spriteID: 7f90e9a12e5e25c44bdf98a1355bb847
+    spriteID: 2037c35b0497ccb47bedf4c5b18730f1
     layerID: 2
     mosaicPosition: {x: 780, y: 780}
   characterData:
