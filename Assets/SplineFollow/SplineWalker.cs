@@ -7,15 +7,17 @@ public class SplineWalker : MonoBehaviour
 
 	public float duration;
 	public float maxDistance = 5.0f;
+	public float startRotate = 90.0f; 
 
 	public bool lookForward;
-
+	public bool needWaitPlayer = true;
 	public SplineWalkerMode mode;
 
 	private float progress;
 	private bool goingForward = true;
 
 	private GameObject player = null;
+
 
     private void Start()
     {
@@ -24,7 +26,7 @@ public class SplineWalker : MonoBehaviour
 
     private void Update()
 	{
-		if(player != null && Vector2.Distance(player.transform.position, transform.position) > maxDistance)
+		if(needWaitPlayer && player != null && Vector2.Distance(player.transform.position, transform.position) > maxDistance)
         {
 			return;
         }
@@ -67,7 +69,7 @@ public class SplineWalker : MonoBehaviour
 			Vector3 p = spline.GetDirection(progress);
 			float rot_z = Mathf.Atan2(p.y, p.x) * Mathf.Rad2Deg;
 			float sign = goingForward ? -1 : 1;
-			transform.rotation = Quaternion.Euler(0f, 0f, rot_z + sign * 90);
+			transform.rotation = Quaternion.Euler(0f, 0f, rot_z + sign * startRotate);
 		}
 	}
 }
