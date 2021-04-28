@@ -4,13 +4,15 @@
 public class AudioManager : MonoBehaviour
 {
     public AudioClip m_MainMenuSound = null;
-    public AudioClip m_InGameSoundIntro = null;
+    //public AudioClip m_InGameSoundIntro = null;
     public AudioClip m_InGameSoundLoop = null;
     public AudioClip m_InCreditsEasterEgg = null;
+    public GameObject bubbles = null;
 
     private AudioSource m_BackgroundMusicSource =  null;
     private GameState m_PreviousGameState = GameState.MainMenu;
 
+    private AudioSource InstanceBubbles = null;
     private bool isMuted = false;
 
     private float m_IntroLenght = 0.0f;
@@ -21,22 +23,14 @@ public class AudioManager : MonoBehaviour
         
         m_BackgroundMusicSource.clip = m_MainMenuSound;
         m_BackgroundMusicSource.Play();
-        m_IntroLenght = m_InGameSoundIntro.length;
+
+        if(bubbles != null)
+        {
+            GameObject go=  Instantiate(bubbles) as GameObject;
+            InstanceBubbles = go.GetComponent<AudioSource>();
+        }
 
         FlowManager.OnGameStateChanged += OnGameStateChanged;
-    }
-
-    void Update()
-    {
-        if(m_PreviousGameState == GameState.InGame)
-        {
-            if(!m_BackgroundMusicSource.isPlaying)
-            {
-                m_BackgroundMusicSource.clip = m_InGameSoundLoop;
-                m_BackgroundMusicSource.loop = true;
-                m_BackgroundMusicSource.Play();
-            }
-        }
     }
 
     void OnDestroy() 
@@ -53,6 +47,7 @@ public class AudioManager : MonoBehaviour
                 case GameState.MainMenu:
                 {
                     m_BackgroundMusicSource.Stop();
+                    InstanceBubbles.Stop();
                     m_BackgroundMusicSource.clip = m_MainMenuSound;
                     m_BackgroundMusicSource.loop = true;
                     m_BackgroundMusicSource.Play();
@@ -61,9 +56,10 @@ public class AudioManager : MonoBehaviour
                 case GameState.InGame:
                 {
                     m_BackgroundMusicSource.Stop();
-                    m_BackgroundMusicSource.clip = m_InGameSoundIntro;
+                    m_BackgroundMusicSource.clip = m_InGameSoundLoop;
                     m_BackgroundMusicSource.loop = false;
                     m_BackgroundMusicSource.Play();
+
                     break;
                 }
                 /*
@@ -84,7 +80,6 @@ public class AudioManager : MonoBehaviour
         isMuted = wantToMute;
         float result_of_choice = wantToMute ? 0.0f : 1.0f;
         AudioListener.volume = result_of_choice;
-        //Debug.Log(result_of_choice);
     }
     
     public bool IsMuted()
