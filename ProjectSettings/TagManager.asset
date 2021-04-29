@@ -8,6 +8,7 @@ TagManager:
   - MusicManager
   - FlowManager
   - LocalizationData
+  - LifeOrb
   layers:
   - Default
   - TransparentFX
@@ -42,9 +43,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Dora
-    uniqueID: 3128942401
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -53,4 +51,7 @@ TagManager:
     locked: 0
   - name: TilemapsBottom
     uniqueID: 1814035657
+    locked: 0
+  - name: Dora
+    uniqueID: 3128942401
     locked: 0

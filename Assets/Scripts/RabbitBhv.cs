@@ -19,7 +19,7 @@ public class RabbitBhv : MonoBehaviour
         FlowManager.SetFlowState(GameState.GameOver);
 
         StartCoroutine(FadeOff());
-        //StartCoroutine(Restart());
+        StartCoroutine(Restart());
     }
 
     private IEnumerator Restart()

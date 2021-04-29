@@ -27,7 +27,11 @@ public class AudioManager : MonoBehaviour
         if(bubbles != null)
         {
             GameObject go=  Instantiate(bubbles) as GameObject;
+            DontDestroyOnLoad(go);
             InstanceBubbles = go.GetComponent<AudioSource>();
+            InstanceBubbles.loop = true;
+            InstanceBubbles.volume = 0.0f;
+            InstanceBubbles.Play();
         }
 
         FlowManager.OnGameStateChanged += OnGameStateChanged;
@@ -47,19 +51,19 @@ public class AudioManager : MonoBehaviour
                 case GameState.MainMenu:
                 {
                     m_BackgroundMusicSource.Stop();
-                    InstanceBubbles.Stop();
                     m_BackgroundMusicSource.clip = m_MainMenuSound;
                     m_BackgroundMusicSource.loop = true;
                     m_BackgroundMusicSource.Play();
+                    InstanceBubbles.volume = 0.0f;
                     break;
                 }
                 case GameState.InGame:
                 {
                     m_BackgroundMusicSource.Stop();
                     m_BackgroundMusicSource.clip = m_InGameSoundLoop;
-                    m_BackgroundMusicSource.loop = false;
+                    m_BackgroundMusicSource.loop = true;
                     m_BackgroundMusicSource.Play();
-
+                    InstanceBubbles.volume = 0.3f;
                     break;
                 }
                 /*

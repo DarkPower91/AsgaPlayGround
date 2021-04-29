@@ -21,7 +21,7 @@ public class GivingLifeOrb : MonoBehaviour
             // Change player health
             _player_health.ChangeHealth(_player_health.max_health);
             givenHealth = true;
-            light = GetComponent<Light2D>();
+            light = GetComponentInChildren<Light2D>();
             light.color = disableColor;
             //StartCoroutine(FadeOff());
         }
